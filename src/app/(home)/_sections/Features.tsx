@@ -20,8 +20,6 @@ const defaultOptions = {
 
 // @ts-ignore
 const Card = ({ item, idx }: any) => {
-	const Icon = idx === 0 ? ArrowRight : null;
-
 	return (
 		<Tilt options={defaultOptions}>
 			<motion.div
