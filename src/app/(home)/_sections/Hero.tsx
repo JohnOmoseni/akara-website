@@ -1,0 +1,61 @@
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import TextGenerateEffect from "@/components/anims/TextGenerateEffect";
+import Button from "@/components/reuseables/CustomButton";
+
+function Hero() {
+	const heroRef = useRef<HTMLDivElement>(null);
+	const { scrollYProgress } = useScroll({
+		target: heroRef,
+		offset: ["start start", "end start"],
+	});
+
+	// @ts-ignore
+	const opacity = useTransform(scrollYProgress, [0, 0.5, 1], [1, 0.2, 1]);
+
+	return (
+		<div className="flex-column h-full pt-[120px] md:grid grid-cols-[2fr_1fr] relative w-full max-md:!items-center gap-8 px-3 md:pt-[max(150px,_12%)] md:pl-[max(2em,_6%)] md:pr-[max(2em,_4%)]">
+			<motion.div
+				variants={{
+					hidden: { opacity: 0.3 },
+					visible: { opacity: 1 },
+				}}
+				whileInView="visible"
+				exit="hidden"
+				animate="hidden"
+				viewport={{ amount: 0.5 }}
+				className="flex-1 relative flex-column max-md:!items-center gap-6"
+			>
+				<div className="flex-column gap-3 md:gap-2">
+					<p className="text-sm max-md:text-center max-md:max-w-[40ch] max-md:mx-auto badge !bg-neutral-600 text-white !border-none">
+						Building for millions of Nigerians and Africans
+					</p>
+
+					<h1 className="relative text-4xl text-white md:text-6xl  max-md:text-center">
+						Start Making money while Helping End{" "}
+						<br className="hidden md:block" /> Nigeria's Affordable Housing
+						Deficit
+					</h1>
+				</div>
+
+				<TextGenerateEffect
+					className="max-w-[50ch] text-base lg:text-xl max-md:px-2 max-md:text-center"
+					words="Discover the full potential of fractional real estate ownership. Finance the development of thousands of affordable housing units with as little N1,000"
+				/>
+
+				<div className="flex-column md:row-flex-start gap-y-3 gap-x-5 mt-6 lg:mt-14">
+					<Button
+						title="Get Started"
+						variant="white"
+						className="rounded-full"
+						size="lg"
+					/>
+
+					<Button title="Learn More" className="rounded-full" size="lg" />
+				</div>
+			</motion.div>
+		</div>
+	);
+}
+
+export default Hero;

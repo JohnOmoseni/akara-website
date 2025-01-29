@@ -1,0 +1,78 @@
+.btn {
+	box-shadow: inset 0px -1px 10px 0px rgba(0, 0, 0, 0.03),
+		inset 0px -3.225806713104248px 9.677419662475586px 0px rgba(206, 206, 251, 0.1),
+		0px 2px 12px -3px rgba(0, 0, 0, 0.2);
+}
+
+.badge {
+	-webkit-backdrop-filter: blur(2.5rem);
+	backdrop-filter: blur(2.5rem);
+	box-shadow: 0.1875rem 0.1875rem var(--p-badges-shadow-bg-color),
+		0.25rem 0.1875rem var(--p-badges-shadow-border-color),
+		0.1875rem 0.25rem var(--p-badges-shadow-border-color),
+		0.125rem 0.1875rem var(--p-badges-shadow-border-color),
+		0.1875rem 0.125rem var(--p-badges-shadow-border-color);
+}
+
+/* Text shadow */
+.text-shadow-light {
+	text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Background gradients */
+.bg-gradient-200 {
+	background-image: linear-gradient(
+		80.52deg,
+		#86e6ac 20.3%,
+		#d8f9ae 80.17%,
+		#7190ff 100.31% /* #6663f6 150.98% */
+	);
+}
+
+/* Text gradient */
+.text-gradient-100 {
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(
+		232deg,
+		#6663f6 10.98%,
+		#7190ff 20.31%,
+		#d8f9ae 60.17%
+	);
+}
+
+.faq button:hover {
+	text-transform: none !important;
+}
+.faq > div:last-child > div {
+	border: none;
+}
+
+.scroller > ul > li {
+	width: 300px;
+}
+
+.skeleton {
+	border-radius: var(--rounded-box, 1rem /* 16px */);
+	--tw-bg-opacity: 1;
+	background-color: var(--fallback-b3, oklch(var(--b3) / var(--tw-bg-opacity)));
+	will-change: background-position;
+	animation: skeleton 1.8s ease-in-out infinite;
+	background-image: linear-gradient(
+		105deg,
+		transparent 0%,
+		transparent 40%,
+		var(--fallback-b1, oklch(var(--b1) / 1)) 50%,
+		transparent 60%,
+		transparent 100%
+	);
+	background-size: 200% auto;
+	background-repeat: no-repeat;
+	background-position-x: -50%;
+}
+@media (prefers-reduced-motion) {
+	.skeleton {
+		animation-duration: 15s;
+	}
+}
