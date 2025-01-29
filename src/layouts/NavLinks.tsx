@@ -1,3 +1,4 @@
+import { useAppContext } from "@/context/AppContext";
 import { animateFn, linksAni } from "@/lib/animate";
 import { cn } from "@/lib/utils";
 import { NavLinkProps } from "@/types";
@@ -5,6 +6,7 @@ import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
 
 function NavLinks({ label, href, tag, menu, idx }: NavLinkProps) {
+	const { toggleMenu, openMenu } = useAppContext();
 	const navlink = "relative p-1 tracking-snug whitespace-nowrap";
 	const menulink = "text-xl";
 
@@ -16,6 +18,7 @@ function NavLinks({ label, href, tag, menu, idx }: NavLinkProps) {
 	const onClick = () => {
 		const element = document.getElementById(tag);
 		element?.scrollIntoView({ behavior: "smooth" });
+		openMenu && toggleMenu(false);
 	};
 
 	return (

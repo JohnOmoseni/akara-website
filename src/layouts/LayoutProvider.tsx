@@ -1,5 +1,5 @@
 import { Suspense, useEffect } from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { Toaster } from "sonner";
 import { useAppContext } from "@/context/AppContext";
 import { AnimatePresence } from "framer-motion";
@@ -9,6 +9,8 @@ import Menu from "./Menu";
 
 function LayoutProvider() {
 	const { openMenu, handleNetwork, handleResize } = useAppContext();
+	const location = useLocation();
+	const pathname = location.pathname;
 
 	useEffect(() => {
 		const updateNetwork = () => {
@@ -32,11 +34,18 @@ function LayoutProvider() {
 		};
 	}, []);
 
+	useEffect(() => {
+		const element = document.getElementById("top-element");
+		element?.scrollIntoView({ behavior: "smooth" });
+	}, [pathname]);
+
 	return (
 		<>
 			<AnimatePresence mode="wait">{openMenu && <Menu />}</AnimatePresence>
 
 			<div className="wrapper font-inter">
+				<div id={"top-element"} className="" />
+
 				<Suspense fallback={<FallbackLoader />}>
 					<Outlet />
 				</Suspense>

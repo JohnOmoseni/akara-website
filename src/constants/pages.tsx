@@ -16,6 +16,7 @@ import {
 	user_6_male,
 } from "./images";
 
+// SERVICES
 export const services = [
 	{
 		title: "High Impact, Low Risk Projects",
@@ -125,7 +126,7 @@ export const testimonials = [
 export const features = [
 	{
 		title: "Be Part of the Solution:",
-		text: "Help solve Nigeria’s housing deficit hassle-free, while earning significant monthly profit. The Akara Innovation team handles the entire process with the highest level of technology-enabled transparency and efficiency for maximum thesis-supported profit. this profit comes first in the form of weekly and monthly rental income, and then as capital gains through the appreciation of the value the property.",
+		text: "Help solve Nigeria's housing deficit hassle-free, while earning significant monthly profit. The Akara Innovation team handles the entire process with the highest level of technology-enabled transparency and efficiency for maximum thesis-supported profit. this profit comes first in the form of weekly and monthly rental income, and then as capital gains through the appreciation of the value the property.",
 		icon: chat,
 	},
 	{
@@ -188,7 +189,7 @@ export const faqs = [
 	{
 		trigger: "Does Akara focus solely on real estate?",
 		body1:
-			"Yes, Akara is exclusively focused on real estate, particularly affordable housing. Our mission is to address Nigeria’s housing deficit by facilitating access to affordable rental properties and creating sustainable living solutions.",
+			"Yes, Akara is exclusively focused on real estate, particularly affordable housing. Our mission is to address Nigeria's housing deficit by facilitating access to affordable rental properties and creating sustainable living solutions.",
 	},
 	{
 		trigger: "Is Akara a registered company?",
@@ -221,7 +222,7 @@ export const faqs = [
 		trigger:
 			"Are there limits on the number of people who can co-own a property",
 		body1:
-			"Yes, each property listed on Akara’s platform has a specific number of units of ownership available. \n For example: If a property is valued at ₦30,000,000 and each fractional unit is priced at ₦1,000, there will be 30,000 units available. Once all units are bought, no additional purchases can be made for that property.",
+			"Yes, each property listed on Akara's platform has a specific number of units of ownership available. \n For example: If a property is valued at ₦30,000,000 and each fractional unit is priced at ₦1,000, there will be 30,000 units available. Once all units are bought, no additional purchases can be made for that property.",
 	},
 	{
 		trigger: "What guarantees my co-ownership stake and rental income?",
@@ -248,9 +249,9 @@ export const faqs = [
 
 	{
 		trigger:
-			"What happens if the number of co-owners needed isn’t met within a reasonable time?",
+			"What happens if the number of co-owners needed isn't met within a reasonable time?",
 		body1:
-			"Funds collected are held in an escrow account until the funding target is reached. However, Akara is committed to completing all projects within the stipulated timeline, even if all units of ownership have not been sold. This is possible thanks to our trusted partners who step in to provide the required financing. \n If the funding target isn’t met, Akara may extend the funding period to attract more participants. \n Late buyers will pay higher prices for units in completed projects due to the increased value. \n Early buyers are rewarded with lower prices and immediate benefits as the project progresses. \n Akara's limited project listings ensure that all developments are completed as planned while adhering to our affordable housing vision.",
+			"Funds collected are held in an escrow account until the funding target is reached. However, Akara is committed to completing all projects within the stipulated timeline, even if all units of ownership have not been sold. This is possible thanks to our trusted partners who step in to provide the required financing. \n If the funding target isn't met, Akara may extend the funding period to attract more participants. \n Late buyers will pay higher prices for units in completed projects due to the increased value. \n Early buyers are rewarded with lower prices and immediate benefits as the project progresses. \n Akara's limited project listings ensure that all developments are completed as planned while adhering to our affordable housing vision.",
 	},
 	{
 		trigger: "What are the risks associated with co-ownership on Akara?",
@@ -271,7 +272,7 @@ export const faqsTest = [
 			{
 				trigger: "Does Akara focus solely on real estate?",
 				body1:
-					"Yes, Akara is exclusively focused on real estate, particularly affordable housing. Our mission is to address Nigeria’s housing deficit by facilitating access to affordable rental properties and creating sustainable living solutions.",
+					"Yes, Akara is exclusively focused on real estate, particularly affordable housing. Our mission is to address Nigeria's housing deficit by facilitating access to affordable rental properties and creating sustainable living solutions.",
 			},
 			{
 				trigger: "Is Akara a registered company?",
@@ -313,7 +314,7 @@ export const faqsTest = [
 				trigger:
 					"Are there limits on the number of people who can co-own a property",
 				body1:
-					"Yes, each property listed on Akara’s platform has a specific number of units of ownership available. \n For example: If a property is valued at ₦30,000,000 and each fractional unit is priced at ₦1,000, there will be 30,000 units available. Once all units are bought, no additional purchases can be made for that property.",
+					"Yes, each property listed on Akara's platform has a specific number of units of ownership available. \n For example: If a property is valued at ₦30,000,000 and each fractional unit is priced at ₦1,000, there will be 30,000 units available. Once all units are bought, no additional purchases can be made for that property.",
 			},
 			{
 				trigger: "What guarantees my co-ownership stake and rental income?",
@@ -348,9 +349,9 @@ export const faqsTest = [
 		questions: [
 			{
 				trigger:
-					"What happens if the number of co-owners needed isn’t met within a reasonable time?",
+					"What happens if the number of co-owners needed isn't met within a reasonable time?",
 				body1:
-					"Funds collected are held in an escrow account until the funding target is reached. However, Akara is committed to completing all projects within the stipulated timeline, even if all units of ownership have not been sold. This is possible thanks to our trusted partners who step in to provide the required financing. \n If the funding target isn’t met, Akara may extend the funding period to attract more participants. \n Late buyers will pay higher prices for units in completed projects due to the increased value. \n Early buyers are rewarded with lower prices and immediate benefits as the project progresses. \n Akara's limited project listings ensure that all developments are completed as planned while adhering to our affordable housing vision.",
+					"Funds collected are held in an escrow account until the funding target is reached. However, Akara is committed to completing all projects within the stipulated timeline, even if all units of ownership have not been sold. This is possible thanks to our trusted partners who step in to provide the required financing. \n If the funding target isn't met, Akara may extend the funding period to attract more participants. \n Late buyers will pay higher prices for units in completed projects due to the increased value. \n Early buyers are rewarded with lower prices and immediate benefits as the project progresses. \n Akara's limited project listings ensure that all developments are completed as planned while adhering to our affordable housing vision.",
 			},
 			{
 				trigger: "What are the risks associated with co-ownership on Akara?",
@@ -364,45 +365,549 @@ export const faqsTest = [
 export const privacyPolicy = [
 	{
 		introduction:
-			"LuxuryWithLan values the privacy of its users. This Privacy Policy describes how we collect, use, and protect the personal information of users who interact with our app, website, and services. \n By using our platform, you agree to the practices outlined in this Privacy Policy.",
+			"At Akara Innovations Limited (“Akara”), we value and respect your privacy. This document outlines how we collect, use, and protect the personal information of our users when you access our website or mobile applications (“Platform”) via [www.akara.ng](http://www.akara.ng). Our commitment is to uphold the highest standards of integrity, transparency, and fairness in handling your data.",
 	},
 	{
-		label: "Information we collect",
-		body: "Personal Information: When you register or use our app, we may collect personal information such as your name, email address, phone number, location, payment details, and any other information you provide during registration or transactions.\n \n  Property Listings Information: If you list a property, car, apartment, or hotel, we may collect details such as the property type, address, photos, price, and other relevant information. \n \n Usage Data: We may collect information about how you use the app, such as device information, IP address, browser type, browsing history, search queries, and the features you use. \n \n  Location Data: We may collect your device's location to provide location-based services (e.g., nearby properties or listings.",
+		label: "Use of Cookies and Web Beacons",
+		body: (
+			<>
+				<p>
+					To enhance your online experience, Akara may use cookies and web
+					beacons:
+				</p>
+				<ul className="mt-3">
+					<li>
+						<strong className="font-medium">Cookies:</strong> Cookies are
+						identifiers stored on your device to personalize your interaction
+						with the Platform. For instance, cookies enable the Platform to
+						remember your preferences on subsequent visits. You can manage
+						cookie settings through your web browser, though some features of
+						the Platform may not function optimally if cookies are disabled.
+					</li>
+					<li>
+						<strong className="font-medium">Web Beacons:</strong> Web beacons
+						are transparent image files used to monitor site traffic and user
+						navigation. These tools help us understand how visitors interact
+						with the Platform. You can override web beacons by using privacy
+						software or browser settings without affecting your access to our
+						services.
+					</li>
+				</ul>
+			</>
+		),
 	},
 	{
-		label: "How we use Information",
-		body: "We use the collected information for the following purposes: \n \n To provide, improve, and personalize our services. \n \n To process transactions, manage listings, and facilitate communication between buyers and sellers. \n \n  To send marketing and promotional communications (if you have opted in). \n \n  To improve the functionality of the app and monitor usage patterns. \n \n  To comply with legal obligations, resolve disputes, and enforce our agreements.",
+		label: "Children's Online Privacy Protection",
+		body: (
+			<p>
+				The Akara Platform is directed at adults and not intended for users
+				under 18 years of age. We do not knowingly collect personal information
+				from individuals under 18. If we become aware that such information has
+				been inadvertently collected, we will take immediate steps to delete it.
+			</p>
+		),
 	},
 	{
-		label: "Sharing Your Information",
-		body: "We may share your information with third parties in the following circumstances: \n \n Service Providers: We may share your information with trusted third-party service providers who assist with operations such as payment processing, hosting, and marketing. \n \n Legal Requirements: We may disclose your information if required to do so by law, regulation, legal process, or governmental request. \n \n Business Transfers: In the event of a merger, acquisition, or sale of assets, your information may be transferred to the acquiring entity.",
+		label: "Release of Information",
+		body: (
+			<p>
+				If Akara is sold or undergoes a change in ownership, user information
+				may transfer to the new owner to ensure continuity of services. In such
+				an event, users will be notified via the Platform, and reasonable
+				efforts will be made to ensure the new owner adheres to the existing
+				privacy practices.
+			</p>
+		),
 	},
 	{
-		label: "Data Security",
-		body: "We take reasonable steps to protect your personal data from unauthorized access, loss, or misuse. \n However, no method of data transmission over the internet or method of electronic storage is 100% secure. While we strive to protect your information, we cannot guarantee its absolute security.",
-	},
-
-	{
-		label: "User Rights and Control",
-		body: "As a user, you have the following rights: \n \n Access: YYou may access, review, and update your personal information through your account settings. \n \n Opt-Out: You may opt-out of receiving marketing communications by following the unsubscribe instructions in any communication or adjusting your notification preferences in the app. \n \n Data Deletion: You may request the deletion of your account and personal information, subject to applicable legal obligations and retention periods.",
-	},
-
-	{
-		label: "Cookies and Tracking Technologies",
-		body: "We use cookies and other tracking technologies to enhance your user experience. You can disable cookies through your browser settings, but this may affect your ability to use certain features of the app.",
+		label: "Updates and Effective Date",
+		body: (
+			<p>
+				Akara reserves the right to modify this Privacy Policy. Any material
+				changes will be prominently communicated via the Platform. We encourage
+				periodic review of this policy to stay informed about how we manage your
+				data.
+			</p>
+		),
 	},
 	{
-		label: "Third-Party Links",
-		body: "Our app may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties. We encourage you to read their privacy policies before providing any personal information.",
-	},
-	{
-		label: "Changes to this Privacy Policy",
-		body: 'We reserve the right to update or modify this Privacy Policy at any time. When we make changes, we will update the "Effective Date" at the top of this page. We encourage you to review this Privacy Policy periodically to stay informed about how we protect your information.',
+		label: "Contact Information",
+		body: (
+			<p>
+				We reserve the right to update or modify this Privacy Policy at any
+				time. When we make changes, we will update the "Effective Date" at the
+				top of this page. We encourage you to review this Privacy Policy
+				periodically to stay informed about how we protect your information.
+			</p>
+		),
 	},
 	{
 		label: "Contact Us",
-		body: "If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at: skymeasure@gmail.com",
+		body: (
+			<p>
+				If you have any questions about this Privacy Policy or how we handle
+				your personal information, please contact us: <br /> <br />
+				Email:{" "}
+				<a
+					href="mailto:http://www.akara.ng"
+					className="text-secondary font-medium"
+				>
+					hello@akara.ng
+				</a>{" "}
+				<br />
+				Website:{" "}
+				<a href="http://www.akara.ng" className="text-secondary font-medium">
+					www.akara.ng
+				</a>{" "}
+				<br />
+				Effective Date: January 1st, 2025.
+			</p>
+		),
+	},
+];
+
+export const disclaimer = [
+	{
+		introduction: (
+			<p>
+				The Akara platform and all its services are provided on an{" "}
+				<strong className="font-medium">"as-is"</strong> and{" "}
+				<strong className="font-medium">"as-available"</strong> basis. By using
+				this site, you agree that your use of the platform and services is
+				entirely at your own risk. To the fullest extent permitted by law, Akara
+				Innovations Limited disclaims all warranties, whether express or
+				implied, including but not limited to implied warranties of
+				merchantability, fitness for a particular purpose, and non-infringement.
+				We do not guarantee that the platform will always operate without
+				interruption, be error-free, or meet your specific requirements. is a
+				company registered with the Corporate Affairs Commission (CAC) of
+				Nigeria and operates under all applicable laws of the Federal Republic
+				of Nigeria. Akara provides a fractional real estate ownership platform
+				available online via our website and mobile applications (“the
+				Platform”). By accessing the Platform, you agree to be bound by these
+				Terms and Conditions (“Terms of Use”).
+			</p>
+		),
+	},
+	{
+		label: "Liabilities and Limitations",
+		body: (
+			<>
+				<p>
+					<strong className="font-medium">Content Accuracy:</strong> While we
+					strive to ensure the accuracy and completeness of the information
+					provided on the platform, Akara makes no warranties or representations
+					regarding the accuracy, reliability, or completeness of content
+					available on the platform or any third-party websites linked to it.
+				</p>
+				<p>
+					<strong className="font-medium">Third-Party Links:</strong> We do not
+					endorse, guarantee, or assume responsibility for any product or
+					service advertised or offered by a third party through the platform.
+					Akara is not liable for any issues arising from your interactions with
+					such third parties.
+				</p>
+				<p>
+					<strong className="font-medium">Technical Issues:</strong> Akara shall
+					not be held responsible for any technical errors, server issues, bugs,
+					viruses, or other harmful components transmitted through the site that
+					may impact your experience or result in damages.
+				</p>
+				<p>
+					<strong className="font-medium">Unauthorized Transactions:</strong>{" "}
+					Payments for co-ownership units or other services must be made only
+					through Akara's official platform. Akara Innovations is not
+					responsible for transactions conducted outside the platform or with
+					any unauthorized third party.
+				</p>
+			</>
+		),
+	},
+	{
+		label: "User Responsibility",
+		body: (
+			<p>
+				<strong className="font-medium">Adherence to Terms:</strong> Users are
+				required to adhere strictly to the Terms and Conditions of the platform.
+				Negligence on the user's part in reviewing their dashboard or email
+				communications regarding their portfolio or activities on the platform
+				may lead to undesired outcomes, for which Akara shall not be held
+				liable.
+				<br /> <strong className="font-medium">Best Judgment:</strong> Users are
+				advised to exercise caution and conduct their due diligence before
+				engaging in any transactions through or outside the platform.
+			</p>
+		),
+	},
+	{
+		label: "Exclusions",
+		body: (
+			<p>
+				Akara assumes no liability for:
+				<ul>
+					<li>
+						Errors, inaccuracies, or omissions in the content or materials
+						provided.
+					</li>
+					<li>
+						Personal injury or property damage arising from access to or use of
+						the platform.
+					</li>
+					<li>
+						Loss or damage resulting from interruptions, data breaches, or
+						unauthorized access to secure servers.
+					</li>
+					<li>
+						Any direct, indirect, incidental, special, consequential, or
+						exemplary damages caused by the use or misuse of the platform or its
+						content.
+					</li>
+				</ul>
+			</p>
+		),
+	},
+	{
+		label: "Final Note",
+		body: (
+			<p>
+				By accessing the platform and utilizing its services, you acknowledge
+				that you have read and understood this disclaimer, and you agree to its
+				terms. Akara Innovations Limited reserves the right to update or amend
+				this disclaimer without prior notice. Users are encouraged to
+				periodically review this section for updates.
+				<br />
+				For questions or further clarification, please contact us at{" "}
+				<a href="mailto:hello@akara.ng" className="font-medium text-secondary">
+					hello@akara.ng
+				</a>
+				.
+			</p>
+		),
+	},
+];
+
+export const terms = [
+	{
+		introduction: (
+			<p>
+				<strong className="font-medium">
+					Akara Innovations Limited (“Akara”)
+				</strong>{" "}
+				is a company registered with the Corporate Affairs Commission (CAC) of
+				Nigeria and operates under all applicable laws of the Federal Republic
+				of Nigeria. Akara provides a fractional real estate ownership platform
+				available online via our website and mobile applications (“the
+				Platform”). By accessing the Platform, you agree to be bound by these
+				Terms and Conditions (“Terms of Use”).
+				<br />
+				<br />
+				<h3>Effective Date</h3>
+				<p className="mt-2">
+					These Terms of Use shall become effective immediately upon your
+					acceptance, either electronically or otherwise, of these terms through
+					the Platform.
+				</p>
+			</p>
+		),
+	},
+
+	{
+		label: "1. Purpose",
+		body: (
+			<p>
+				Akara offers a tech-powered platform enabling fractional ownership of
+				affordable housing projects across Nigeria. By using the Platform, Akara
+				facilitates your participation in co-ownership opportunities for real
+				estate assets (“Services”). These Terms of Use govern the use of Akara’s
+				Services and your engagement with the Platform. Additionally, by using
+				the Platform, you agree to Akara’s Privacy Policy, which outlines how we
+				collect, use, share, and store your personal information.
+			</p>
+		),
+	},
+	{
+		label: "2. Agreement",
+		body: (
+			<>
+				<p>
+					By accessing our website at{" "}
+					<a href="http://www.akara.ng">www.akara.ng</a> or our mobile
+					applications (“Platform”), you enter into a binding agreement with
+					Akara as governed by these Terms of Use. This includes:
+				</p>
+				<ul>
+					<li>
+						<strong className="font-medium">User Agreement:</strong> Applicable
+						to individuals who access the Platform to evaluate Services or for
+						educational purposes.
+					</li>
+					<li>
+						<strong className="font-medium">Client Agreement:</strong>{" "}
+						Applicable to individuals who sign up for an account and fund their
+						portfolios on Akara.
+					</li>
+				</ul>
+				<p>
+					Both Users and Clients agree to be bound by these Terms of Use. Any
+					changes to these Terms of Use will be posted on the Platform, and your
+					continued use of the Platform will constitute acceptance of any
+					revised terms.
+				</p>
+			</>
+		),
+	},
+	{
+		label: "3. Eligibility",
+		body: (
+			<>
+				<p>You must be 18 years or older to access and use the Platform.</p>
+				<p>
+					By using the Platform, you represent and warrant that you meet this
+					eligibility requirement. Unauthorized access by individuals under the
+					age of 18 is strictly prohibited.
+				</p>
+			</>
+		),
+	},
+	{
+		label: "4. Access and Account Security",
+		body: (
+			<>
+				<p>
+					<strong className="font-medium">4.1 Account Registration</strong>
+					<br />
+					To access certain features of the Platform, you must create an account
+					(“User Account”). During registration, you will be required to provide
+					accurate and current information and choose a secure password. You
+					agree to:
+				</p>
+				<ul>
+					<li>Maintain the confidentiality of your password.</li>
+					<li>
+						Notify Akara immediately in the event of unauthorized access to your
+						account.
+					</li>
+					<li>
+						Accept sole responsibility for activities conducted under your User
+						Account.
+					</li>
+				</ul>
+				<br />
+				<p>
+					<strong className="font-medium">4.2 Alerts and Notifications</strong>
+					<br />
+					By creating a User Account, you consent to receiving various alerts
+					and notifications via email and mobile devices. You may unsubscribe
+					from marketing-oriented emails at any time, but essential service
+					communications cannot be opted out of.
+				</p>
+			</>
+		),
+	},
+	{
+		label: "5. Confidentiality",
+		body: (
+			<p>
+				All non-public information obtained by Akara, its employees, or agents
+				in connection with providing Services will be kept confidential. This
+				confidentiality obligation does not apply to information disclosed to
+				legal advisers, government authorities, or as required by law. This
+				covenant shall survive termination of this Agreement.
+			</p>
+		),
+	},
+	{
+		label: "6. Akara’s Services",
+		body: (
+			<>
+				<p>
+					<strong className="font-medium">6.1 Service Overview</strong>
+					<br />
+					Akara delivers Services exclusively through the Platform. In the
+					“Offerings” section of the Platform, Clients can view available
+					co-ownership opportunities and select projects to participate in based
+					on their preferences. Clients are solely responsible for evaluating
+					the suitability of their selected offerings.
+				</p>
+				<br />
+				<p>
+					<strong className="font-medium">6.2 Fees</strong>
+					<br />
+					<ul>
+						<li>
+							<strong className="font-medium">Maintenance Fee:</strong> Akara
+							charges a 15% maintenance fee on rental income earned from
+							properties. This fee does not impact the target 5% of asset value
+							rental income promised to co-owners.
+						</li>
+						<li>
+							<strong className="font-medium">Service Fee:</strong> A 5% service
+							fee is applied to deposits made into your wallet on the Platform.
+						</li>
+						<li>
+							<strong className="font-medium">Processing Fee:</strong> A 5% fee
+							is applied to withdrawals from your wallet. This fee is waived if
+							the withdrawal is made before any profit has been earned.
+						</li>
+					</ul>
+				</p>
+				<br />
+				<p>
+					<strong className="font-medium">6.3 Lock-Up Period</strong>
+					<br />
+					All co-ownership units purchased on the Platform are subject to a
+					two-year lock-up period to ensure stability. Units can only be sold
+					after this period has elapsed.
+				</p>
+				<br />
+				<p>
+					<strong className="font-medium">6.4 Risk Acknowledgment</strong>
+					<br />
+					Participation in co-ownership through Akara carries risks, including
+					potential loss of capital. By using our Services, you acknowledge and
+					accept that:
+					<ul>
+						<li>
+							Akara does not guarantee the achievement of financial objectives.
+						</li>
+						<li>
+							The value of your co-ownership units may fluctuate based on market
+							conditions.
+						</li>
+					</ul>
+				</p>
+			</>
+		),
+	},
+	{
+		label: "7. Advisory and Third-Party Fees",
+		body: (
+			<p>
+				You acknowledge that Akara’s fees do not include charges that may be
+				imposed by third-party financial institutions, such as bank transfer
+				fees or taxes. You agree to bear these additional costs where
+				applicable.
+			</p>
+		),
+	},
+	{
+		label: "8. Fee Payment",
+		body: (
+			<p>
+				By using Akara’s Services, you authorize Akara to deduct applicable fees
+				from your wallet or rental income account. Payment of fees will be
+				prioritized as follows:
+				<ul>
+					<li>From available cash balances.</li>
+					<li>From liquidation of cash equivalents.</li>
+					<li>From the sale of other assets held in your portfolio.</li>
+				</ul>
+			</p>
+		),
+	},
+	{
+		label: "9. For Non-Clients",
+		body: (
+			<p>
+				If you use the Platform for educational purposes without becoming a
+				Client, you understand and agree that:
+				<ul>
+					<li>
+						Insights provided by Akara are for informational purposes only.
+					</li>
+					<li>
+						Akara will not be held liable for any actions you take based on such
+						information.
+					</li>
+				</ul>
+			</p>
+		),
+	},
+	{
+		label: "10. Co-Ownership Risks",
+		body: (
+			<p>
+				By using Akara’s Platform, you acknowledge that all co-ownership
+				arrangements carry inherent risks, including potential depreciation of
+				property value. Akara makes no guarantees regarding future performance
+				or value.
+			</p>
+		),
+	},
+	{
+		label: "11. Indemnification",
+		body: (
+			<p>
+				You agree to indemnify, defend, and hold harmless Akara, its directors,
+				officers, employees, and agents from any claims, losses, damages, or
+				expenses arising from your breach of these Terms of Use, negligence, or
+				violation of applicable laws.
+			</p>
+		),
+	},
+	{
+		label: "12. Limitation of Liability",
+		body: (
+			<p>
+				To the maximum extent permitted by law, Akara shall not be liable for:
+				<ul>
+					<li>
+						Any indirect, incidental, or consequential damages arising from your
+						use of the Platform.
+					</li>
+					<li>
+						Losses resulting from unforeseen adverse market conditions or
+						third-party actions.
+					</li>
+				</ul>
+				Akara’s cumulative liability to you shall not exceed ₦10,000.
+			</p>
+		),
+	},
+	{
+		label: "13. Disclaimer of Warranties",
+		body: (
+			<p>
+				The Platform is provided on an “AS IS” and “AS AVAILABLE” basis. Akara
+				expressly disclaims all warranties, whether express or implied,
+				including but not limited to warranties of merchantability, fitness for
+				a particular purpose, and non-infringement.
+			</p>
+		),
+	},
+	{
+		label: "14. Governing Law and Dispute Resolution",
+		body: (
+			<p>
+				These Terms of Use are governed by the laws of the Federal Republic of
+				Nigeria. Any disputes arising under these Terms shall be resolved
+				through arbitration in accordance with the Arbitration and Conciliation
+				Act of Nigeria.
+			</p>
+		),
+	},
+	{
+		label: "15. Contact Information",
+		body: (
+			<p>
+				If you have questions regarding these Terms of Use, please contact us
+				at:
+				<br />
+				<strong className="font-medium">Email:</strong> hello@akara.ng
+				<br />
+				<strong className="font-medium">Website:</strong>{" "}
+				<a href="http://www.akara.ng">www.akara.ng</a>
+			</p>
+		),
+	},
+	{
+		introduction: (
+			<p>
+				<strong className="font-medium">Akara Innovations Limited</strong>
+				<br />
+				All Rights Reserved © 2025
+			</p>
+		),
 	},
 ];
 

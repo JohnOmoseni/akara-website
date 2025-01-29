@@ -1,50 +1,67 @@
-import { privacyPolicy } from "@/constants/pages";
-import Header from "@/layouts/Header";
+import { disclaimer, privacyPolicy, terms } from "@/constants/pages";
+import { navLinks } from "@/constants";
+import { logo, Menu } from "@/constants/icons";
+import { useAppContext } from "@/context/AppContext";
+import { Link } from "react-router-dom";
+import Button from "@/components/reuseables/CustomButton";
+import NavLinks from "@/layouts/NavLinks";
 
-function PrivacyPolicy() {
+function PrivacyPolicy({
+	type = "privacy",
+}: {
+	type: "privacy" | "disclaimer" | "terms";
+}) {
+	let list;
+	let title;
+
+	switch (type) {
+		case "privacy":
+			list = privacyPolicy;
+			title = "Privacy Policy";
+			break;
+		case "disclaimer":
+			list = disclaimer;
+			title = "Disclaimer";
+			break;
+		case "terms":
+			list = terms;
+			title = "Terms & Conditions";
+			break;
+	}
 	return (
 		<>
-			<Header />
-			<div className="bg-gradient-hero min-h-[35vh] max-h-[250px] grid place-items-center px-6 py-6 sm:py-4 text-foreground-variant">
-				<h1 className="text-white text-center max-w-[30ch]">Privacy Policy</h1>
-			</div>
+			<PolicyHeader />
 
-			<main className="w-full py-7 px-4 sm:pt-12 sm:px-[5%] pb-[2rem]">
-				<div className="flex-column gap-6 md:gap-10">
-					<p className="pr-1">
-						{privacyPolicy[0]?.introduction &&
-							privacyPolicy[0]?.introduction.split("\n").map((line, index) =>
-								line.trim() !== "" ? (
-									<p key={index} className="">
-										{line}
-									</p>
-								) : (
-									<br key={index} />
-								)
-							)}
-					</p>
+			<main className="w-full py-8 max-[380px]:px-3 px-4 sm:pt-12 sm:px-[5%] sm:pb-[4rem]">
+				<div className="flex-column gap-6">
+					<h1 className="max-sm:text-center">{title}</h1>
 
-					<div className="flex-column gap-6">
-						{privacyPolicy.slice(1).map((paragraph, idx) => {
+					{list[0]?.introduction &&
+					typeof list[0]?.introduction === "string" ? (
+						list[0]?.introduction?.split("\n").map((line, index) =>
+							line.trim() !== "" ? (
+								<p key={index} className="leading-6 text-base font-light pr-1">
+									{line}
+								</p>
+							) : (
+								<br key={index} />
+							)
+						)
+					) : (
+						<p className="leading-6 text-base font-light pr-1">
+							{list[0]?.introduction}
+						</p>
+					)}
+
+					<div className="flex-column gap-6 mt-4">
+						{list.slice(1).map((paragraph, idx) => {
 							return (
-								<div
-									key={idx}
-									className="flex-column sm:grid grid-cols-[minmax(auto,_200px)_1fr] gap-x-4 gap-y-3"
-								>
-									<h3 className="font-bold text-[1rem]">{paragraph?.label}</h3>
+								<div key={idx} className="flex-column gap-5">
+									<h3 className="font-bold">{paragraph?.label}</h3>
 
-									<p className="pr-2">
-										{paragraph?.body &&
-											paragraph?.body
-												.split("\n")
-												.map((line, index) =>
-													line.trim() !== "" ? (
-														<p key={index}>{line}</p>
-													) : (
-														<br key={index} />
-													)
-												)}
-									</p>
+									<div className="pr-2 leading-6 text-base font-light">
+										{paragraph?.body}
+									</div>
 								</div>
 							);
 						})}
@@ -56,3 +73,40 @@ function PrivacyPolicy() {
 }
 
 export default PrivacyPolicy;
+
+const PolicyHeader = () => {
+	const { toggleMenu } = useAppContext();
+
+	return (
+		<header className="mx-auto w-full sticky px-4 sm:px-6 py-1.5 md:py-2 bg-background top-0 left-0 right-0 z-[999] drop-shadow-[0_2px_100px_rgb(0_0_0_/_0.04)]">
+			<div className="row-flex-btwn gap-4">
+				<Link
+					to="/"
+					className="group relative transition-sm hover:scale-95 -ml-4"
+				>
+					<img
+						src={logo}
+						alt="akara"
+						className="w-[6rem] sm:size-fit object-contain"
+					/>
+				</Link>
+
+				<div className="row-flex gap-12 ml-auto">
+					<div className="md:row-flex hidden gap-8">
+						{navLinks?.map((link, idx) => (
+							<NavLinks key={idx} {...link} />
+						))}
+					</div>
+
+					<div className="icon sm:!hidden" onClick={() => toggleMenu()}>
+						<Menu size={22} className="" color="#333" />
+					</div>
+
+					<Link to="" className="hidden sm:block">
+						<Button title="Get Started" className="rounded-full" />
+					</Link>
+				</div>
+			</div>
+		</header>
+	);
+};

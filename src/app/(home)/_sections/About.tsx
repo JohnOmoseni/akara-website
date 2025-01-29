@@ -3,7 +3,7 @@ import { wavy } from "@/constants/icons";
 
 function About() {
 	return (
-		<div className="flex-column gap-12 max-w-4xl mx-auto sm:max-md:px-4">
+		<div className="flex-column gap-14 max-w-4xl mx-auto sm:max-md:px-4">
 			<FadeIn>
 				<div className="relative grid grid-cols-1 sm:grid-cols-[1fr_1fr] gap-4 sm:gap-8">
 					<div className="absolute w-[80px] h-fit -top-6 left-[50%] max-sm:-translate-x-1/2 sm:w-[100px] sm:-top-7 sm:-left-[max(1em,_3%)]">

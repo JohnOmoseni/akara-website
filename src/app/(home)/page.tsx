@@ -30,7 +30,10 @@ export default function Home() {
 			</div>
 
 			<section>
-				<SectionWrapper containerStyles="pt-12 md:py-[min(5rem,_10%)]">
+				<SectionWrapper
+					id="features"
+					containerStyles="pt-12 md:py-[min(5rem,_10%)]"
+				>
 					<Features />
 				</SectionWrapper>
 
@@ -46,15 +49,15 @@ export default function Home() {
 					<Testimonials />
 				</SectionWrapper>
 
-				<SectionWrapper containerStyles="bg-background-100 ">
+				<SectionWrapper id="steps" containerStyles="bg-background-100 ">
 					<HowItWorks />
 				</SectionWrapper>
 
-				<SectionWrapper containerStyles="bg-background-100 ">
+				<SectionWrapper id="about" containerStyles="bg-background-100 ">
 					<About />
 				</SectionWrapper>
 
-				<SectionWrapper containerStyles="bg-background-100 ">
+				<SectionWrapper id="faqs" containerStyles="bg-background-100 ">
 					<FAQ />
 				</SectionWrapper>
 			</section>

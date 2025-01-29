@@ -4,7 +4,6 @@ import { navLinks } from "@/constants";
 import { Close } from "@/constants/icons";
 import { animateFn, animateMenu } from "@/lib/animate";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import { useAppContext } from "@/context/AppContext";
 
 function Menu() {
@@ -33,15 +32,20 @@ function Menu() {
 					<Close size="25" className="" fill="#333" />
 				</span>
 
-				<nav className="flex-column m-auto gap-8 pt-[min(2rem,_6%)]">
+				<nav className="flex-column m-auto gap-8 pt-[min(4.5rem,_20%)]">
 					{navLinks.map((link, idx) => (
 						<NavLinks key={idx} {...link} menu idx={idx} />
 					))}
 				</nav>
 
-				<Link to="" className="hidden sm:block">
-					<Button title="Get Started" className="" />
-				</Link>
+				<div className="mt-auto mb-8 mx-auto">
+					<Button
+						title="Get Started"
+						size="lg"
+						className=""
+						onClick={onClose}
+					/>
+				</div>
 			</div>
 		</motion.div>
 	);

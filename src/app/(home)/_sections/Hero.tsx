@@ -31,15 +31,16 @@ function Hero() {
 						Building for millions of Nigerians and Africans
 					</p>
 
-					<h1 className="relative text-4xl text-white md:text-5xl  leading-[1.2] md:leading-[1.1] max-md:text-center">
-						Start Making money while Helping End Nigeria's Affordable Housing
+					<h1 className="relative text-4xl text-white md:text-5xl leading-[1.1] md:leading-[1.2] max-md:text-center">
+						Start Making money while Helping End{" "}
+						<br className="block md:hidden" /> Nigeria's Affordable Housing
 						Deficit
 					</h1>
 				</div>
 
 				<TextGenerateEffect
 					className="max-w-[50ch] text-[1.1rem] lg:text-xl max-md:px-2 max-md:text-center"
-					words="Discover the full potential of fractional real estate ownership. Finance the development of thousands of affordable housing units with as little N1,000"
+					words="Discover the full potential of fractional real estate ownership. Finance the development of thousands of affordable housing units with as little ₦1,000"
 				/>
 
 				<div className="flex-column md:row-flex-start gap-y-3 gap-x-5 mt-6 lg:mt-8">

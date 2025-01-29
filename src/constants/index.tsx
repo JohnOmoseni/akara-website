@@ -1,25 +1,25 @@
-import { Facebook, Instagram, LinkedIn } from "./icons";
+import { Facebook, Instagram, LinkedIn, Twitter } from "./icons";
 
 export const navLinks = [
 	{
 		label: "Investments",
-		href: "/",
-		tag: "investments",
+		href: "#",
+		tag: "features",
 	},
 
 	{
 		label: "How it works",
-		href: "/",
-		tag: "features",
+		href: "#",
+		tag: "steps",
 	},
 	{
 		label: "About us",
-		href: "/",
+		href: "#",
 		tag: "about",
 	},
 	{
 		label: "Contact Us",
-		href: "/",
+		href: "#",
 		tag: "contact",
 	},
 ];
@@ -130,7 +130,7 @@ export const socials = [
 		tag: "linkedin",
 	},
 	{
-		label: LinkedIn,
+		label: Twitter,
 		href: "https://www.instagram.com/futurebridgetech?igsh=aHh6NjRieTZtenIy&utm_source=qr",
 		tag: "twitter",
 	},

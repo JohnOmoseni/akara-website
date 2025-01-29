@@ -1,5 +1,6 @@
 import RevealAnimate from "@/components/anims/RevealAnimate";
 import Button from "@/components/reuseables/CustomButton";
+import { ArrowRight } from "@/constants/icons";
 import { services } from "@/constants/pages";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
@@ -19,6 +20,8 @@ const defaultOptions = {
 
 // @ts-ignore
 const Card = ({ item, idx }: any) => {
+	const Icon = idx === 0 ? ArrowRight : null;
+
 	return (
 		<Tilt options={defaultOptions}>
 			<motion.div
@@ -61,6 +64,8 @@ const Card = ({ item, idx }: any) => {
 						title={idx === 0 ? "View Properties" : "Get Started"}
 						variant={idx === 0 ? "default" : "outline"}
 						className="mt-4"
+						icon={ArrowRight}
+						iconStyles={cn("", idx === 0 ? "" : "!text-secondary")}
 					/>
 				</RevealAnimate>
 			</motion.div>

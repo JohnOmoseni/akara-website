@@ -4,7 +4,7 @@ import { FC } from "react";
 import ClipLoader from "react-spinners/ClipLoader";
 
 const buttonVariants = cva(
-	"row-flex w-max  sm:whitespace-nowrap leading-4 rounded-md font-semibold capitalize tracking-wide subpixel-antialiased shadow-sm filter transition-sm duration-150 active:translate-y-0.5 active:brightness-90 disabled:border-none disabled:pointer-events-none disabled:opacity-60 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+	"row-flex w-max leading-5 sm:whitespace-nowrap rounded-md font-semibold capitalize tracking-wide subpixel-antialiased shadow-sm filter transition-sm duration-150 active:translate-y-0.5 active:brightness-90 disabled:border-none disabled:pointer-events-none disabled:opacity-60 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
 	{
 		variants: {
 			variant: {
@@ -36,6 +36,7 @@ interface ButtonProps extends ButtonVariantsProps {
 	isLoading?: boolean;
 	dir?: "left" | "right";
 	disabled?: boolean;
+	iconStyles?: string;
 	onClick?: (e?: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
@@ -43,13 +44,14 @@ const Button: FC<ButtonProps> = ({
 	title,
 	className,
 	type = "button",
-	dir = "left",
+	dir = "right",
 	icon: Icon,
 	onClick,
 	isLoading = false,
 	disabled = false,
 	variant,
 	size,
+	iconStyles,
 }) => {
 	return (
 		<button
@@ -59,7 +61,7 @@ const Button: FC<ButtonProps> = ({
 			className={cn(
 				buttonVariants({ variant, size }),
 				className,
-				Icon && "gap-2"
+				Icon && "gap-1"
 			)}
 		>
 			{isLoading ? (
@@ -71,9 +73,13 @@ const Button: FC<ButtonProps> = ({
 				/>
 			) : (
 				<>
-					{Icon && dir === "left" && <Icon className="size-5 text-white" />}
+					{Icon && dir === "left" && (
+						<Icon className={cn("size-8 text-white mt-0.5", iconStyles)} />
+					)}
 					{title}
-					{Icon && dir === "right" && <Icon className="size-5 text-white" />}
+					{Icon && dir === "right" && (
+						<Icon className={cn("w-8 text-white mt-px", iconStyles)} />
+					)}
 				</>
 			)}
 		</button>

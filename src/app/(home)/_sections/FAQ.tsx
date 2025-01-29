@@ -36,6 +36,8 @@ const FAQ = () => {
 				))}
 			</div>
 
+			<div id="contact" className="h-2" />
+
 			<div className="flex-column mt-8 sm:mt-12 bg-background-100 relative w-full items-center justify-center gap-2 py-10 px-2 md:pt-[min(2rem,_4%)] rounded-2xl overflow-hidden">
 				<h3 className="text-center text-xl">Still have Questions?</h3>
 
