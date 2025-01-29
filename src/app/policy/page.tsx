@@ -32,9 +32,9 @@ function PrivacyPolicy({
 		<>
 			<PolicyHeader />
 
-			<main className="w-full py-8 max-[380px]:px-3 px-4 sm:pt-12 sm:px-[5%] sm:pb-[4rem]">
+			<main className="w-full py-8 max-[380px]:px-3.5 px-4 sm:pt-12 sm:px-[5%] sm:pb-[4rem]">
 				<div className="flex-column gap-6">
-					<h1 className="max-sm:text-center">{title}</h1>
+					<h1 className="text-left leading-[1.1]">{title}</h1>
 
 					{list[0]?.introduction &&
 					typeof list[0]?.introduction === "string" ? (

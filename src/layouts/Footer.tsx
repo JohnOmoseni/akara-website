@@ -30,7 +30,7 @@ const Footer = () => {
 	const pathname = location.pathname;
 
 	return (
-		<footer className="px-6 pb-5 pt-8 sm:px-[5%] sm:pt-[5%] bg-[#111] text-white">
+		<footer className="px-5 pb-5 pt-8 sm:px-[5%] sm:pt-[5%] bg-[#111] text-white">
 			<div className="sm:row-flex flex flex-col !items-start justify-between gap-8 md:gap-[7rem] lg:gap-[10%]">
 				<div className="flex-column flex-2 w-full gap-6 max-sm:mx-auto max-sm:!items-center">
 					<Link to="/" className="group relative transition w-max">
@@ -38,7 +38,7 @@ const Footer = () => {
 						{/* <LogoWhite className="size-fit object-contain" /> */}
 					</Link>
 
-					<div className="row-flex-btwn gap-3 w-max">
+					<div className="row-flex-btwn gap-5 w-max">
 						{socials?.map((link, idx) => (
 							<Social key={idx} {...link} />
 						))}
@@ -143,7 +143,7 @@ const Footer = () => {
 					collective wealth.
 				</p>
 
-				<div className="row-flex-btwn gap-5 mt-6 mb-4">
+				<div className="row-flex-btwn gap-5 mt-6 mb-3">
 					<p>© 2024 Akara Innovations Ltd. All Rights Reserved.</p>
 
 					<Link className="text-secondary font-semibold" to="/disclaimer">
