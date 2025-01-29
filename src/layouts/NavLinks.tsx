@@ -2,23 +2,20 @@ import { animateFn, linksAni } from "@/lib/animate";
 import { cn } from "@/lib/utils";
 import { NavLinkProps } from "@/types";
 import { motion } from "framer-motion";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 function NavLinks({ label, href, tag, menu, idx }: NavLinkProps) {
 	const navlink = "relative p-1 tracking-snug whitespace-nowrap";
 	const menulink = "text-xl";
 
 	const location = useLocation();
-	const navigate = useNavigate();
 	const pathname = location.pathname;
 	const isActiveLink =
 		pathname.includes(tag) || (pathname === href && tag === "home");
 
 	const onClick = () => {
-		// openMenu && dispatch(setOpenMenu(false));
-		// navigate.push(href);
-		// const element = document.getElementById(tag);
-		// element?.scrollIntoView({ behavior: "smooth" });
+		const element = document.getElementById(tag);
+		element?.scrollIntoView({ behavior: "smooth" });
 	};
 
 	return (

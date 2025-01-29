@@ -1,6 +1,6 @@
 import RevealAnimate from "@/components/anims/RevealAnimate";
 import Button from "@/components/reuseables/CustomButton";
-import { features, services } from "@/constants/pages";
+import { services } from "@/constants/pages";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";

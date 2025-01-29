@@ -4,7 +4,6 @@ import { Toaster } from "sonner";
 import { useAppContext } from "@/context/AppContext";
 import { AnimatePresence } from "framer-motion";
 import FallbackLoader from "@/components/fallback/FallbackLoader";
-import Header from "./Header";
 import Footer from "./Footer";
 import Menu from "./Menu";
 
