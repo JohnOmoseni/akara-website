@@ -56,13 +56,13 @@
 		@apply bg-background text-foreground;
 	}
 	h1 {
-		@apply text-primaryFont font-extrabold text-foreground-variant-100;
+		@apply text-primaryFont font-extrabold;
 	}
 	h2 {
-		@apply text-secondaryFont font-extrabold text-foreground-variant-100;
+		@apply text-secondaryFont font-extrabold;
 	}
 	h3 {
-		@apply font-semibold text-foreground-variant-100 text-xl;
+		@apply font-semibold text-xl;
 	}
 }
 

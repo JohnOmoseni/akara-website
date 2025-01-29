@@ -14,7 +14,7 @@ function Hero() {
 	const opacity = useTransform(scrollYProgress, [0, 0.5, 1], [1, 0.2, 1]);
 
 	return (
-		<div className="flex-column h-full pt-[120px] md:grid grid-cols-[2fr_1fr] relative w-full max-md:!items-center gap-8 px-3 md:pt-[max(150px,_12%)] md:pl-[max(2em,_6%)] md:pr-[max(2em,_4%)]">
+		<div className="flex-column h-full pt-[120px] md:grid grid-cols-[2fr_1fr] pb-[3.5rem] relative w-full max-md:!items-center gap-8 px-3 md:pt-[max(150px,_12%)] md:pl-[max(2em,_6%)] md:pr-[max(2em,_4%)]">
 			<motion.div
 				variants={{
 					hidden: { opacity: 0.3 },
@@ -27,23 +27,22 @@ function Hero() {
 				className="flex-1 relative flex-column max-md:!items-center gap-6"
 			>
 				<div className="flex-column gap-3 md:gap-2">
-					<p className="text-sm max-md:text-center max-md:max-w-[40ch] max-md:mx-auto badge !bg-neutral-600 text-white !border-none">
+					<p className="text-sm max-md:text-center max-md:max-w-[40ch] max-md:mx-auto badge !bg-secondary text-white font-semibold !border-none">
 						Building for millions of Nigerians and Africans
 					</p>
 
-					<h1 className="relative text-4xl text-white md:text-6xl  max-md:text-center">
-						Start Making money while Helping End{" "}
-						<br className="hidden md:block" /> Nigeria's Affordable Housing
+					<h1 className="relative text-4xl text-white md:text-5xl  leading-[1.2] md:leading-[1.1] max-md:text-center">
+						Start Making money while Helping End Nigeria's Affordable Housing
 						Deficit
 					</h1>
 				</div>
 
 				<TextGenerateEffect
-					className="max-w-[50ch] text-base lg:text-xl max-md:px-2 max-md:text-center"
+					className="max-w-[50ch] text-[1.1rem] lg:text-xl max-md:px-2 max-md:text-center"
 					words="Discover the full potential of fractional real estate ownership. Finance the development of thousands of affordable housing units with as little N1,000"
 				/>
 
-				<div className="flex-column md:row-flex-start gap-y-3 gap-x-5 mt-6 lg:mt-14">
+				<div className="flex-column md:row-flex-start gap-y-3 gap-x-5 mt-6 lg:mt-8">
 					<Button
 						title="Get Started"
 						variant="white"

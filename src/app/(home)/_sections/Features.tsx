@@ -43,8 +43,9 @@ const Card = ({ item, idx }: any) => {
 						/>
 					</div>
 				</RevealAnimate>
+
 				{/* Radial gradient for the container to give a faded look */}
-				<div className="absolute pointer-events-none inset-0 row-flex bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_60%,black)]" />
+				{/* <div className="absolute pointer-events-none inset-0 row-flex bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_60%,black)]" /> */}
 
 				<RevealAnimate className="max-sm:w-auto">
 					<h3 className="text-xl mt-4 max-sm:text-center">{item.title}</h3>
@@ -58,6 +59,7 @@ const Card = ({ item, idx }: any) => {
 				<RevealAnimate className="max-sm:w-auto">
 					<Button
 						title={idx === 0 ? "View Properties" : "Get Started"}
+						variant={idx === 0 ? "default" : "outline"}
 						className="mt-4"
 					/>
 				</RevealAnimate>

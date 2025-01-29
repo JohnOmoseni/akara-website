@@ -68,7 +68,7 @@ const config = {
 				sm: "0.8rem",
 				base: ["clamp(0.9rem, 3vw, 0.95rem)", { lineHeight: "1.2" }],
 				secondaryFont: ["clamp(1.8rem, 3vw, 32px) ", { lineHeight: "1.2" }],
-				primaryFont: ["clamp(3rem, 5vw, 50px)", { lineHeight: "1.1" }],
+				primaryFont: ["clamp(3rem, 5vw, 50px)", { lineHeight: "1.6" }],
 			},
 			keyframes: {
 				"accordion-down": {

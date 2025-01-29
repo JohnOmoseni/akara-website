@@ -26,10 +26,10 @@ const Card = ({ item, idx }: any) => {
 				viewport={{ once: true, amount: 0.2 }}
 				custom={idx}
 				className={cn(
-					"flex-column max-sm:items-center self-start relative gap-3.5 border border-border-100 rounded-sm shadow-sm py-5 px-6 md:py-10 md:px-11 transition"
+					"flex-column max-sm:items-center self-start relative gap-3.5 border border-border-100 rounded-sm shadow-sm py-5 px-6   transition"
 				)}
 			>
-				<RevealAnimate delay={0.8} className="max-sm:w-auto">
+				{/* <RevealAnimate delay={0.8} className="max-sm:w-auto">
 					<div className="size-16 relative">
 						<img src={item.icon} alt="" className="object-contain" />
 						<div
@@ -41,7 +41,7 @@ const Card = ({ item, idx }: any) => {
 							)}
 						/>
 					</div>
-				</RevealAnimate>
+				</RevealAnimate> */}
 
 				<RevealAnimate className="max-sm:w-auto">
 					<h3 className="text-xl mt-4 max-sm:text-center">{item.step}</h3>

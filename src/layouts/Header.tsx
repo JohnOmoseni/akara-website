@@ -9,7 +9,7 @@ const Header = () => {
 	const { toggleMenu } = useAppContext();
 
 	return (
-		<header className="mx-auto w-[90%] absolute px-4 sm:px-6 py-1.5 md:py-2 bg-background top-4 md:top-6 left-0 right-0 z-[999] drop-shadow-[0_2px_100px_rgb(0_0_0_/_1)] rounded-lg sm:rounded-full">
+		<header className="mx-auto w-[90%] absolute px-4 sm:px-6 py-1.5 md:py-2 bg-background top-4 md:top-6 left-0 right-0 z-[999] drop-shadow-[0_2px_100px_rgb(0_0_0_/_0.1)] rounded-lg sm:rounded-full">
 			<div className="row-flex-btwn gap-4">
 				<Link
 					to="/"

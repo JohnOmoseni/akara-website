@@ -153,18 +153,13 @@ export const steps = [
 		icon: chat,
 	},
 	{
-		step: "Step 3",
-		text: "The proceed to browse browse through and learn more from a list of available affordable housing projects in the Offerings Section.",
-		icon: chat,
-	},
-	{
-		step: "Step 5",
-		text: "Buy as many fractional units of equity as you like, with a process as simple as shopping on an e-commerce site.",
-		icon: chat,
-	},
-	{
 		step: "Step 2",
 		text: "Once in, Fund Your Wallet with a range of options for your convenience, so you can seamlessly make purchases.",
+		icon: chat,
+	},
+	{
+		step: "Step 3",
+		text: "The proceed to browse browse through and learn more from a list of available affordable housing projects in the Offerings Section.",
 		icon: chat,
 	},
 	{
@@ -172,7 +167,11 @@ export const steps = [
 		text: "Select the project you wish to buy fractional units of ownership",
 		icon: chat,
 	},
-
+	{
+		step: "Step 5",
+		text: "Buy as many fractional units of equity as you like, with a process as simple as shopping on an e-commerce site.",
+		icon: chat,
+	},
 	{
 		step: "Step 6",
 		text: "Instantly get your proof of purchase, so you can relax and start earning rental income and more automatically.",

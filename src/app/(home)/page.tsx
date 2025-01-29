@@ -13,7 +13,7 @@ export default function Home() {
 	return (
 		<>
 			<div
-				className="relative isolate w-full sm:min-h-[130svh] bg-background-100"
+				className="relative isolate w-full min-h-[105svh] bg-background-100"
 				style={{
 					backgroundImage: "url(/images/house_1.jpg)",
 					backgroundRepeat: "no-repeat",
@@ -23,7 +23,7 @@ export default function Home() {
 					backgroundBlendMode: "darken",
 				}}
 			>
-				<div className="bg-black/70 absolute top-0 left-0 w-full h-full -z-10" />
+				<div className="bg-black/50 absolute top-0 left-0 w-full h-full -z-10" />
 				<Header />
 
 				<Hero />
