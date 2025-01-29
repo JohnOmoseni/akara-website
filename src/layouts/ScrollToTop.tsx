@@ -1,8 +1,10 @@
 import { useEffect } from "react";
-import { usePathname } from "next/navigation";
+import { useLocation } from "react-router-dom";
 
 function ScrollToTop({ scrollRef }: { scrollRef: any }) {
- const pathname = usePathname();
+	const location = useLocation();
+	const pathname = location.pathname;
+
 	useEffect(() => {
 		if (scrollRef?.current) {
 			scrollRef.current.scrollTo({
