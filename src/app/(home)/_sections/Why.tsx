@@ -1,5 +1,5 @@
 import Button from "@/components/reuseables/CustomButton";
-import { house_1, house_3 } from "@/constants/images";
+import { house_3 } from "@/constants/images";
 import { features } from "@/constants/pages";
 
 function WhyUs() {

@@ -1,4 +1,4 @@
-import { Facebook, Instagram, LinkedIn, Twitter } from "./icons";
+import { Instagram, Twitter } from "./icons";
 
 export const navLinks = [
 	{
