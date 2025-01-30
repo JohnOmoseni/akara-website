@@ -46,7 +46,7 @@ const Footer = () => {
 						designed to meet housing needs while creating long-term value.
 					</p>
 
-					<div className="row-flex-btwn gap-6 w-max sm:ml-3.5 mt-2">
+					<div className="row-flex-btwn gap-6 w-max sm:ml-3.5 mt-3">
 						{socials?.map((link, idx) => (
 							<Social key={idx} {...link} />
 						))}
@@ -98,7 +98,7 @@ const Footer = () => {
 			</div>
 
 			<div className="pt-6 mt-10 border-t border-neutral-600">
-				<p className="leading-6 text-light pr-2 md:pr-3">
+				<p className="leading-5 font-light pr-2 md:pr-3 text-sm">
 					{/* Ensuring Trust, Safety, and Accountability */}
 					Professional Oversight: Akara has a robust framework for overseeing
 					all activities in the value-chain, on behalf of all co-owners,
@@ -142,10 +142,13 @@ const Footer = () => {
 					collective wealth.
 				</p>
 
-				<div className="row-flex-btwn gap-5 mt-6 mb-3">
+				<div className="row-flex-btwn gap-5 mt-6 mb-3 text-xs">
 					<p>© 2025 Akara Innovations Ltd. All Rights Reserved.</p>
 
-					<Link className="text-secondary font-semibold" to="/disclaimer">
+					<Link
+						className="text-secondary font-semibold text-xs"
+						to="/disclaimer"
+					>
 						Disclaimer{" "}
 					</Link>
 				</div>
