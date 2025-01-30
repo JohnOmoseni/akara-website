@@ -13,7 +13,7 @@ export default function Home() {
 	return (
 		<>
 			<div
-				className="relative isolate w-full min-h-[105svh] bg-background-100"
+				className="relative isolate w-full min-h-[105svh] max-h-[1300px] bg-background-100"
 				style={{
 					backgroundImage: "url(/images/house_1.jpg)",
 					backgroundRepeat: "no-repeat",
