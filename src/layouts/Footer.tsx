@@ -32,13 +32,13 @@ const Footer = () => {
 	return (
 		<footer className="px-5 pb-5 pt-8 sm:px-[5%] sm:pt-[5%] bg-[#111] text-white">
 			<div className="sm:row-flex flex flex-col !items-start justify-between gap-8 md:gap-[7rem] lg:gap-[10%]">
-				<div className="flex-column flex-2 w-full gap-6 max-sm:mx-auto max-sm:!items-center">
+				<div className="flex-column flex-2 w-full gap-5 max-sm:mx-auto max-sm:!items-center">
 					<Link to="/" className="group relative transition w-max">
 						<img src={logo} alt="akara" className="size-fit object-contain" />
 						{/* <LogoWhite className="size-fit object-contain" /> */}
 					</Link>
 
-					<div className="row-flex-btwn gap-6 w-max">
+					<div className="row-flex-btwn gap-6 w-max md:ml-5 ">
 						{socials?.map((link, idx) => (
 							<Social key={idx} {...link} />
 						))}
