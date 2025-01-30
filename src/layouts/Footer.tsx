@@ -68,7 +68,7 @@ const Footer = () => {
 											(pathname === item.href && item?.tag === "home");
 
 										const linkStyles = cn(
-											"w-full text-xs transition-colors hover:font-medium hover:text-secondary-100 max-sm:text-center",
+											"w-full text-xs transition-colors hover:font-medium hover:text-secondary max-sm:text-center",
 											isActiveLink && "text-foreground-variant font-medium"
 										);
 
