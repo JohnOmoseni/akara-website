@@ -17,7 +17,7 @@ const FAQ = () => {
 			</p>
 
 			<div className="faq mx-auto mt-8 w-[90%] max-w-[700px] self-center rounded-xl shadow-sm px-3">
-				{faqs.map((item, idx) => (
+				{faqs?.slice(0, 5).map((item, idx) => (
 					<Accordion
 						type="single"
 						collapsible

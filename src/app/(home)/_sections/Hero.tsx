@@ -32,7 +32,7 @@ function Hero() {
 					</p>
 
 					<h1 className="relative text-4xl text-white md:text-5xl leading-[1.1] md:leading-[1.2] max-md:text-center">
-						Start Making money while Helping End{" "}
+						Start Making Money While Helping End{" "}
 						<br className="block md:hidden" /> Nigeria's Affordable Housing
 						Deficit
 					</h1>
@@ -51,7 +51,15 @@ function Hero() {
 						size="lg"
 					/>
 
-					<Button title="Learn More" className="rounded-full" size="lg" />
+					<Button
+						title="Learn More"
+						className="rounded-full"
+						size="lg"
+						onClick={() => {
+							const element = document.getElementById("steps");
+							element?.scrollIntoView({ behavior: "smooth" });
+						}}
+					/>
 				</div>
 			</motion.div>
 		</div>

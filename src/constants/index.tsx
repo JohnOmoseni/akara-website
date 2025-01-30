@@ -115,23 +115,14 @@ export const footerLinks = [
 
 export const socials = [
 	{
-		label: Facebook,
-		href: "https://www.facebook.com/profile.php?id=61565626941290&mibextid=LQQJ4d",
-		tag: "facebook",
-	},
-	{
 		label: Instagram,
-		href: "https://www.instagram.com/futurebridgetech?igsh=aHh6NjRieTZtenIy&utm_source=qr",
+		href: "https://www.instagram.com/akara_connect1?igsh=MW0zNWZiMjQ3MnA4eQ==",
 		tag: "instagram",
 	},
-	{
-		label: LinkedIn,
-		href: "https://wa.me/+2347014075556?text=Hello%20there!",
-		tag: "linkedin",
-	},
+
 	{
 		label: Twitter,
-		href: "https://www.instagram.com/futurebridgetech?igsh=aHh6NjRieTZtenIy&utm_source=qr",
+		href: "https://x.com/Akaraconnect1?t=500cUkYB-2NrFfgBmW0z3A&s=09",
 		tag: "twitter",
 	},
 ];

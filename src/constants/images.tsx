@@ -13,6 +13,8 @@ import user_2_female from "/images/user_2_female.jpg";
 import user_3_female from "/images/user_3_female.jpg";
 import user_4_female from "/images/user_4_female.jpg";
 import house_1 from "/images/house_1.jpg";
+import house_2 from "/images/house_2.jpg";
+import house_3 from "/images/house_3.jpg";
 
 export {
 	hero,
@@ -30,4 +32,6 @@ export {
 	user_3_female,
 	user_4_female,
 	house_1,
+	house_2,
+	house_3,
 };

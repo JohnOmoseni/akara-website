@@ -38,7 +38,7 @@ const Footer = () => {
 						{/* <LogoWhite className="size-fit object-contain" /> */}
 					</Link>
 
-					<div className="row-flex-btwn gap-5 w-max">
+					<div className="row-flex-btwn gap-6 w-max">
 						{socials?.map((link, idx) => (
 							<Social key={idx} {...link} />
 						))}
@@ -144,7 +144,7 @@ const Footer = () => {
 				</p>
 
 				<div className="row-flex-btwn gap-5 mt-6 mb-3">
-					<p>© 2024 Akara Innovations Ltd. All Rights Reserved.</p>
+					<p>© 2025 Akara Innovations Ltd. All Rights Reserved.</p>
 
 					<Link className="text-secondary font-semibold" to="/disclaimer">
 						Disclaimer{" "}

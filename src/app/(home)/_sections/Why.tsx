@@ -1,5 +1,5 @@
 import Button from "@/components/reuseables/CustomButton";
-import { house_1 } from "@/constants/images";
+import { house_1, house_3 } from "@/constants/images";
 import { features } from "@/constants/pages";
 
 function WhyUs() {
@@ -29,7 +29,7 @@ function WhyUs() {
 				</ul>
 
 				<div className=" flex-1 relative w-full min-h-[420px] sm:max-w-[580px] md:min-w-[380px] xl:min-w-[780px] max-md:max-w-[min(95%,_500px)] max-lg:max-h-[580px] mx-auto rounded-2xl overflow-hidden">
-					<img src={house_1} alt="hero" className="!object-cover h-full" />
+					<img src={house_3} alt="hero" className="!object-cover h-full" />
 				</div>
 				{/* <div className="flex-1 min-h-max relative w-full grid sm:max-md:grid-cols-3 grid-cols-[repeat(auto-fit,_minmax(120px,_1fr))] grid-rows-[repeat(auto-fit,_minmax(150px,_160px))] gap-4 mx-auto rounded-md overflow-hidden">
 					{Array.from({ length: 6 }).map((_item, idx) => {

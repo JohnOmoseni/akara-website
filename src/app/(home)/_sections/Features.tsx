@@ -59,7 +59,7 @@ const Card = ({ item, idx }: any) => {
 
 				<RevealAnimate className="max-sm:w-auto">
 					<Button
-						title={idx === 0 ? "View Properties" : "Get Started"}
+						title={"Get Started"}
 						variant={idx === 0 ? "default" : "outline"}
 						className="mt-4"
 						icon={ArrowRight}

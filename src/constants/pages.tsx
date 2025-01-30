@@ -34,7 +34,7 @@ export const services = [
 export const team = [
 	{
 		name: "Nadayar C. Enegesi",
-		body: "Co-founder/CEO, a tech visionary from Andela to Eden Life, now tackling housing scarcity",
+		body: "Co-founder/CEO, a tech visionary leading the charge to deliver sufficient affordable housing which he believes can be a quality of life multiplier much like the 2 other solutions co-founded, Andela and Eden Life.",
 		img: person_1,
 	},
 	{
@@ -44,7 +44,7 @@ export const team = [
 	},
 	{
 		name: "Tokunbo Akindele, Esq",
-		body: "Executive Advisor, bringing decades of real estate experience to ensure legal, compliance, and construction excellence.",
+		body: "Executive Advisor, a seasoned attorney, serial entrepreneur and passionate nation builder, Mr Akindele brings decades of experience executing on real estate projects worth tens of billions, to ensure Akara succeeds without compromising on legal, compliance, and construction excellence.",
 		img: person_3,
 	},
 ];
@@ -62,63 +62,63 @@ export const testimonials = [
 		name: "Funmi Adekola",
 		subtitle: "Ibadan",
 		avatar: user_1_female,
-		ratings: 2,
+		ratings: 5,
 	},
 	{
 		text: "“When I found out that tech wizards, real estate gurus, and marketing mavens are running the show at Akara, I was like, 'This is the dream team!' Can't wait to see my small stake grow into something big. And knowing I'm part of solving the housing scarcity wey dey worry everybody? That's a big win!”",
 		name: "Emmanuel Okeke",
 		subtitle: "Kano",
 		avatar: user_2_male,
-		ratings: 2,
+		ratings: 4,
 	},
 	{
 		text: "“Akara's got this 'We're finishing this project, no matter what' vibe that's super comforting. Imagine being one of the cool kids who got in early at a bargain. I'm already picturing the smug look on my face when I tell my friends! Plus, dem dey help solve the housing problem wey everybody dey face.”",
 		name: "Adaeze Nwosu",
 		subtitle: "Enugu",
 		avatar: user_2_female,
-		ratings: 2,
+		ratings: 4,
 	},
 	{
 		text: "“The idea that my ownership units are locked up for a bit to keep things stable? Genius! It's like Akara's saying, 'Let's build something solid together, no rush!' I'm ready to ride this real estate wave with them. E dey make sense say we dey help solve the housing wahala too.”",
 		name: "Ibrahim Yusuf",
 		subtitle: "Kaduna",
 		avatar: user_3_male,
-		ratings: 2,
+		ratings: 5,
 	},
 	{
 		text: "“Learning about how Akara handles rental income was like finding out Santa's real - it's just too good to be true! Starting small and earning big? I'm on board faster than you can say 'Happy returns!' E good say we dey tackle this housing scarcity matter together.”",
 		name: "Bilkisu Mohammed",
 		subtitle: "Jos",
 		avatar: user_4_male,
-		ratings: 2,
+		ratings: 5,
 	},
 	{
 		text: "“The fee structure at Akara is like a well-balanced diet - fair and doesn't mess with your returns. And waiving the fee when times are tough? Now that's what I call real customer love. I'm all in! Na so we dey do things for Benin City, helping each other out.”",
 		name: "Chinedu Okoro",
 		subtitle: "Benin City",
 		avatar: user_5_male,
-		ratings: 2,
+		ratings: 5,
 	},
 	{
 		text: "“I love that Akara lets you check out the properties before you dive in. It's like a first date, but with real estate. I'm already planning my 'meet the property' tour when they launch. Let's hope it's love at first sight! And e dey sweet me say we dey solve the housing problem wey dey worry us.”",
 		name: "Nkechi Eze",
 		subtitle: "Owerri",
 		avatar: user_3_female,
-		ratings: 2,
+		ratings: 5,
 	},
 	{
 		text: "“The idea that my 10% could double in rental income over time had me doing a happy dance. It's like watching your favorite plant grow, but this one pays you back! I'm so ready to plant my stake with Akara. And helping to reduce the housing scarcity wey all of us dey suffer? That's the real deal!”",
 		name: "Uchechukwu Onyekwere",
 		subtitle: "Uyo",
 		avatar: user_6_male,
-		ratings: 2,
+		ratings: 4,
 	},
 	{
 		text: "“Finding out Akara takes privacy seriously was like a breath of fresh air in this digital age. And knowing I can peek at the full policy with a click? That's the kind of trust that makes me want to jump on board. Let's co-own responsibly! Na good thing say we dey help solve the housing problem too.”",
 		name: "Kemi Balogun",
 		subtitle: "Warri",
 		avatar: user_4_female,
-		ratings: 2,
+		ratings: 5,
 	},
 ];
 
