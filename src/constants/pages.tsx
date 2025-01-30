@@ -76,7 +76,7 @@ export const testimonials = [
 		name: "Adaeze Nwosu",
 		subtitle: "Enugu",
 		avatar: user_2_female,
-		ratings: 4,
+		ratings: 5,
 	},
 	{
 		text: "“The idea that my ownership units are locked up for a bit to keep things stable? Genius! It's like Akara's saying, 'Let's build something solid together, no rush!' I'm ready to ride this real estate wave with them. E dey make sense say we dey help solve the housing wahala too.”",
@@ -131,7 +131,7 @@ export const features = [
 	},
 	{
 		title: "Start Small, Grow Big",
-		text: "Begin your real estate investment journey with as little as ₦1,000. Flexible investment options designed for every Nigerian's budget.",
+		text: "Begin your real estate investment journey with as little as ₦1,000. Flexible ownership options designed for every Nigerian's budget.",
 		icon: chat,
 	},
 	{
@@ -270,7 +270,7 @@ export const faqs = [
 					rel="noopener noreferrer"
 					className="text-secondary font-medium"
 				>
-					www.akara.ng
+					akara.ng
 				</a>{" "}
 				to explore available projects in the "Offerings" section. Select a
 				project and purchase fractional units worth ₦1,000 or more. Receive your
@@ -325,7 +325,7 @@ export const faqs = [
 export const privacyPolicy = [
 	{
 		introduction:
-			"At Akara Innovations Limited (“Akara”), we value and respect your privacy. This document outlines how we collect, use, and protect the personal information of our users when you access our website or mobile applications (“Platform”) via [www.akara.ng](http://www.akara.ng). Our commitment is to uphold the highest standards of integrity, transparency, and fairness in handling your data.",
+			"At Akara Innovations Limited (“Akara”), we value and respect your privacy. This document outlines how we collect, use, and protect the personal information of our users when you access our website or mobile applications (“Platform”) via [www.akara.ng](http://akara.ng). Our commitment is to uphold the highest standards of integrity, transparency, and fairness in handling your data.",
 	},
 	{
 		label: "Use of Cookies and Web Beacons",
@@ -417,7 +417,7 @@ export const privacyPolicy = [
 				<br />
 				Website:{" "}
 				<a href="http://www.akara.ng" className="text-secondary font-medium">
-					www.akara.ng
+					akara.ng
 				</a>{" "}
 				<br />
 				Effective Date: January 1st, 2025.
@@ -590,10 +590,9 @@ export const terms = [
 		body: (
 			<>
 				<p>
-					By accessing our website at{" "}
-					<a href="http://www.akara.ng">www.akara.ng</a> or our mobile
-					applications (“Platform”), you enter into a binding agreement with
-					Akara as governed by these Terms of Use. This includes:
+					By accessing our website at <a href="http://www.akara.ng">akara.ng</a>{" "}
+					or our mobile applications (“Platform”), you enter into a binding
+					agreement with Akara as governed by these Terms of Use. This includes:
 				</p>
 				<ul>
 					<li>
@@ -856,7 +855,7 @@ export const terms = [
 				<strong className="font-medium">Email:</strong> hello@akara.ng
 				<br />
 				<strong className="font-medium">Website:</strong>{" "}
-				<a href="http://www.akara.ng">www.akara.ng</a>
+				<a href="http://www.akara.ng">akara.ng</a>
 			</p>
 		),
 	},

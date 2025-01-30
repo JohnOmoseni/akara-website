@@ -2,12 +2,6 @@ import { Instagram, Twitter } from "./icons";
 
 export const navLinks = [
 	{
-		label: "Investments",
-		href: "#",
-		tag: "features",
-	},
-
-	{
 		label: "How it works",
 		href: "#",
 		tag: "steps",
@@ -21,6 +15,11 @@ export const navLinks = [
 		label: "Contact Us",
 		href: "#",
 		tag: "contact",
+	},
+	{
+		label: "FAQs",
+		href: "#",
+		tag: "faqs",
 	},
 ];
 
@@ -44,7 +43,7 @@ export const footerLinks = [
 				tag: "phone_no",
 			},
 			{
-				link: "www.akara.ng",
+				link: "akara.ng",
 				href: "https://www.akara.ng",
 				tag: "website",
 			},
@@ -82,7 +81,7 @@ export const footerLinks = [
 		],
 	},
 	{
-		name: "Invest",
+		name: "Product",
 		dropdown: [
 			{
 				link: "Explore",
@@ -97,7 +96,7 @@ export const footerLinks = [
 			{
 				link: "How it works",
 				href: "/",
-				tag: "how-it-works",
+				tag: "steps",
 			},
 			{
 				link: "Resources",

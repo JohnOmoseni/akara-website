@@ -12,13 +12,17 @@ function About() {
 					<h2 className="max-sm:text-center">About Akara</h2>
 
 					<p className="max-w-[80ch] sm:max-w-[50ch] max-sm:px-3 sm:pr-2 mx-auto max-sm:text-center ">
-						Nigeria faces a staggering 28-million-unit housing deficit. While
-						the government struggles, Akara steps in with a mission to bridge
-						this gap over the next 25 years or more through the power of
-						technology and community. By enabling participation with as little
-						as N1,000, we're making it possible for everyone to co-own thousands
-						of crowd-financed Affordable Rental Housing projects across the
-						country.
+						Nigeria faces a staggering 28-million-unit housing deficit,
+						resulting in home rental prices too high for most people's income.
+						While the government struggles to address this, Akara is stepping up
+						with a mission to help bridge this gap over the next 25 years or
+						more through the power of technology and community. By enabling
+						participation with as little as ₦1,000, we're making it possible for
+						Nigerians of all walks of life to co-own micro units of thousands of
+						crowd-financed Affordable Rental Housing projects across the
+						country. This would ultimately create enough supply to cause rental
+						prices to become more budget-friendly for millions of hardworking
+						Nigerians
 					</p>
 				</div>
 			</FadeIn>
