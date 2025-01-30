@@ -1,4 +1,4 @@
-import { chat, collaboration, expertise } from "./icons";
+import { service_impact, service_network } from "./icons";
 
 import {
 	person_1,
@@ -21,12 +21,12 @@ export const services = [
 	{
 		title: "High Impact, Low Risk Projects",
 		body: "Access thoroughly vetted Affordable Housing developments in urban centres Nigeria. From Oworonsokin to Owerri, from Yaba to Aba, from Sabo to Sabongari. \n Our projects offer you the opportunity to buy fractional stakes towards helping provide more affordable housing units for people like you, while preserving your wealth and earning steady income.",
-		icon: collaboration,
+		icon: service_impact,
 	},
 	{
 		title: "Networth-Agnostic Entry Points",
 		body: "Begin your journey into the rewarding world of fractional real estate ownership with as little as ₦1,000. Enjoy weekly/monthly rental income along with appreciation in the value of your fractional ownership. \n Thanks to Akara, you no longer need to be wealthy before you can grow your wealth via real estate.",
-		icon: expertise,
+		icon: service_network,
 	},
 ];
 
@@ -127,22 +127,18 @@ export const features = [
 	{
 		title: "Be Part of the Solution:",
 		text: "Help solve Nigeria's housing deficit hassle-free, while earning significant monthly profit. The Akara Innovation team handles the entire process with the highest level of technology-enabled transparency and efficiency for maximum thesis-supported profit. this profit comes first in the form of weekly and monthly rental income, and then as capital gains through the appreciation of the value the property.",
-		icon: chat,
 	},
 	{
 		title: "Start Small, Grow Big",
 		text: "Begin your real estate investment journey with as little as ₦1,000. Flexible ownership options designed for every Nigerian's budget.",
-		icon: chat,
 	},
 	{
 		title: "Simple and Secure",
 		text: "Intuitive and straightforward steps from start to finish, with certificates of ownership backed by law to back the fractional units of ownership you purchase so you can feel secured.",
-		icon: chat,
 	},
 	{
 		title: "Protect Your Wealth Against Inflation",
 		text: "By buying fractional units of Affordable Housing projects on Akara, you never have to worry about the value of your money being inflated away as the value of your ownership stake, as is the typical case with real estate, almost never goes down and instead always adjusts for this.",
-		icon: chat,
 	},
 ];
 
@@ -151,32 +147,26 @@ export const steps = [
 	{
 		step: "Step 1",
 		text: "Login to your account or Sign Up for one in just a few steps.",
-		icon: chat,
 	},
 	{
 		step: "Step 2",
 		text: "Once in, Fund Your Wallet with a range of options for your convenience, so you can seamlessly make purchases.",
-		icon: chat,
 	},
 	{
 		step: "Step 3",
 		text: "The proceed to browse browse through and learn more from a list of available affordable housing projects in the Offerings Section.",
-		icon: chat,
 	},
 	{
 		step: "Step 4",
 		text: "Select the project you wish to buy fractional units of ownership",
-		icon: chat,
 	},
 	{
 		step: "Step 5",
 		text: "Buy as many fractional units of equity as you like, with a process as simple as shopping on an e-commerce site.",
-		icon: chat,
 	},
 	{
 		step: "Step 6",
 		text: "Instantly get your proof of purchase, so you can relax and start earning rental income and more automatically.",
-		icon: chat,
 	},
 ];
 

@@ -1,6 +1,5 @@
-import chat from "@/assets/chat.svg";
-import collaboration from "@/assets/collaboration.svg";
-import expertise from "@/assets/expertise.svg";
+import service_network from "@/assets/service-icon-network.svg";
+import service_impact from "@/assets/service-icon-impact.svg";
 import logo from "@/assets/logo.svg";
 import wavy from "@/assets/wavy.svg";
 import logo_white from "@/assets/logo_white.svg";
@@ -39,7 +38,6 @@ export {
 	logo_white,
 	logo,
 	wavy,
-	chat,
-	expertise,
-	collaboration,
+	service_impact,
+	service_network,
 };

@@ -83,8 +83,14 @@ const Footer = () => {
 										) : (
 											<Link
 												key={idx}
-												to={`${item.href}`}
+												to={`#${item.tag}`}
 												className={linkStyles}
+												onClick={() => {
+													const element = document.getElementById(
+														item.tag ?? ""
+													);
+													element?.scrollIntoView({ behavior: "smooth" });
+												}}
 											>
 												{item.link}
 											</Link>
@@ -143,7 +149,10 @@ const Footer = () => {
 				</p>
 
 				<div className="row-flex-btwn gap-5 mt-6 mb-3 text-xs">
-					<p>© 2025 Akara Innovations Ltd. All Rights Reserved.</p>
+					<p>
+						<span className="text-secondary font-semibold">© 2025</span> Akara
+						Innovations Ltd. All Rights Reserved.
+					</p>
 
 					<Link
 						className="text-secondary font-semibold text-xs"

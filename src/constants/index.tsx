@@ -71,7 +71,7 @@ export const footerLinks = [
 			{
 				link: "Contact Us",
 				href: "/",
-				tag: "contact-us",
+				tag: "contact",
 			},
 			{
 				link: "Press",
