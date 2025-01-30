@@ -18,7 +18,7 @@ export default function Home() {
 					backgroundImage: "url(/images/house_1.jpg)",
 					backgroundRepeat: "no-repeat",
 					backgroundSize: "cover",
-					// backgroundAttachment: "fixed",
+					backgroundAttachment: "fixed",
 					backgroundPosition: "center center",
 					backgroundBlendMode: "darken",
 				}}
