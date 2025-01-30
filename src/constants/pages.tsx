@@ -25,7 +25,7 @@ export const services = [
 	},
 	{
 		title: "Networth-Agnostic Entry Points",
-		body: "Begin your journey into the rewarding world of fractional real estate ownership with as little as N1,000. Enjoy weekly/monthly rental income along with appreciation in the value of your fractional ownership. \n Thanks to Akara, you no longer need to be wealthy before you can grow your wealth via real estate.",
+		body: "Begin your journey into the rewarding world of fractional real estate ownership with as little as ₦1,000. Enjoy weekly/monthly rental income along with appreciation in the value of your fractional ownership. \n Thanks to Akara, you no longer need to be wealthy before you can grow your wealth via real estate.",
 		icon: expertise,
 	},
 ];

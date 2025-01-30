@@ -6,6 +6,7 @@ import PrivacyPolicy from "./app/policy/page";
 import Home from "./app/(home)/page";
 import ErrorBoundary from "./components/fallback/Error";
 import AppContextProvider from "./context/AppContext";
+import FAQs from "./app/faqs/page";
 
 function App() {
 	return (
@@ -16,6 +17,8 @@ function App() {
 						<Route element={<LayoutProvider />}>
 							<Route path="*" element={<NotFound />} />
 							<Route index element={<Home />} />
+
+							<Route path="/faqs" element={<FAQs />} />
 
 							<Route
 								path="/policy"

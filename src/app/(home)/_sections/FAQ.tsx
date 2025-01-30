@@ -6,6 +6,7 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 import { faqs } from "@/constants/pages";
+import { Link } from "react-router-dom";
 
 const FAQ = () => {
 	return (
@@ -35,6 +36,13 @@ const FAQ = () => {
 					</Accordion>
 				))}
 			</div>
+
+			<Link
+				className="text-secondary  font-semibold text-base w-full text-center row-flex mt-7"
+				to="/faqs"
+			>
+				View more...
+			</Link>
 
 			<div id="contact" className="h-2" />
 

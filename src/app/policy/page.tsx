@@ -74,7 +74,7 @@ function PrivacyPolicy({
 
 export default PrivacyPolicy;
 
-const PolicyHeader = () => {
+export const PolicyHeader = () => {
 	const { toggleMenu } = useAppContext();
 
 	return (

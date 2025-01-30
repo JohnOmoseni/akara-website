@@ -14,7 +14,7 @@ const buttonVariants = cva(
 					"bg-white text-foreground disabled:bg-grey-100 hover:brightness-90",
 			},
 			size: {
-				default: "max-h-10 py-3 px-6",
+				default: "max-h-10 text-[0.87rem] py-3 px-6",
 				sm: "px-3 py-3",
 				lg: "py-4 px-8 min-w-[200px] text-base",
 			},
@@ -61,7 +61,7 @@ const Button: FC<ButtonProps> = ({
 			className={cn(
 				buttonVariants({ variant, size }),
 				className,
-				Icon && "gap-1"
+				Icon && "gap-1.5"
 			)}
 		>
 			{isLoading ? (
@@ -74,11 +74,11 @@ const Button: FC<ButtonProps> = ({
 			) : (
 				<>
 					{Icon && dir === "left" && (
-						<Icon className={cn("size-8 text-white mt-0.5", iconStyles)} />
+						<Icon className={cn("size-8 text-white mt-px", iconStyles)} />
 					)}
 					{title}
 					{Icon && dir === "right" && (
-						<Icon className={cn("w-8 text-white mt-px", iconStyles)} />
+						<Icon size={20} className={cn("text-white mt-px", iconStyles)} />
 					)}
 				</>
 			)}
