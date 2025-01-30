@@ -22,12 +22,12 @@ export const services = [
 	{
 		title: "High Impact, Low Risk Projects",
 		body: "Access thoroughly vetted Affordable Housing developments in urban centres Nigeria. From Oworonsokin to Owerri, from Yaba to Aba, from Sabo to Sabongari. \n Our projects offer you the opportunity to buy fractional stakes towards helping provide more affordable housing units for people like you, while preserving your wealth and earning steady income.",
-		icon: service_impact,
+		icon: service_network,
 	},
 	{
 		title: "Networth-Agnostic Entry Points",
 		body: "Begin your journey into the rewarding world of fractional real estate ownership with as little as ₦1,000. Enjoy weekly/monthly rental income along with appreciation in the value of your fractional ownership. \n Thanks to Akara, you no longer need to be wealthy before you can grow your wealth via real estate.",
-		icon: service_network,
+		icon: service_impact,
 	},
 ];
 
