@@ -3,7 +3,7 @@ import collaboration from "@/assets/collaboration.svg";
 import expertise from "@/assets/expertise.svg";
 import logo from "@/assets/logo.svg";
 import wavy from "@/assets/wavy.svg";
-// import LogoWhite from "@/assets/logo_white.svg?react";
+import logo_white from "@/assets/logo_white.svg";
 
 import { FaStar as ReviewStar } from "react-icons/fa";
 import {
@@ -36,7 +36,7 @@ export {
 	LinkedIn,
 	ReviewStar,
 	Twitter,
-	// LogoWhite,
+	logo_white,
 	logo,
 	wavy,
 	chat,

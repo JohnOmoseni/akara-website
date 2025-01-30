@@ -58,7 +58,7 @@ const Marquee = ({ containerStyles, list, renderItem }: MarqueeProps) => {
 			} else if (speed === "normal") {
 				containerRef.current.style.setProperty("--animation-duration", "50s");
 			} else {
-				containerRef.current.style.setProperty("--animation-duration", "120s");
+				containerRef.current.style.setProperty("--animation-duration", "140s");
 			}
 		}
 	};

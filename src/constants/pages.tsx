@@ -258,107 +258,67 @@ export const faqs = [
 		body1:
 			"As with all real estate ventures, co-ownership carries risks, including: \n Market fluctuations affecting property value. \n Potential delays in development for pre-construction projects.\n However, Akara mitigates these risks through professional property management, legal backing and transparent processes.",
 	},
-];
-
-export const faqsTest = [
-	{
-		section: "About",
-		questions: [
-			{
-				trigger: "What is Akara??",
-				body1:
-					"Akara is a tech-powered platform dedicated to solving Nigeria's affordable housing crisis by enabling fractional co-ownership of real estate. Through Akara, individuals can collectively co-own affordable housing projects and earn steady rental income while contributing to reducing the housing deficit.",
-			},
-			{
-				trigger: "Does Akara focus solely on real estate?",
-				body1:
-					"Yes, Akara is exclusively focused on real estate, particularly affordable housing. Our mission is to address Nigeria's housing deficit by facilitating access to affordable rental properties and creating sustainable living solutions.",
-			},
-			{
-				trigger: "Is Akara a registered company?",
-				body1:
-					"Yes, Akara Innovations Limited is duly registered with the Corporate Affairs Commission (CAC) of Nigeria under all applicable laws.",
-			},
-			{
-				trigger: "Who is behind Akara?",
-				body1:
-					"We are a team of experts in technology, real estate, and marketing, dedicated to providing innovative solutions to Nigeria's housing challenges.",
-			},
-		],
-	},
 
 	{
-		section: "Legal and Regulatory Information",
-		questions: [
-			{
-				trigger: "What regulatory certifications does Akara have?",
-				body1:
-					"While Akara is not yet a cooperative society, we plan to transition to a Cooperative Multipurpose Society soon to align with our long-term vision. For now: Akara holds a Special Control Unit Against Money Laundering (SCUML) certificate issued by the Economic and Financial Crimes Commission (EFCC). \n We are actively working to enter into a trusteeship partnership with a Securities and Exchange Commission (SEC)-regulated asset manager to further secure co-owners' interests.",
-			},
-			{
-				trigger: "What laws regulate fractional co-ownership in Nigeria?",
-				body1:
-					"The Lagos State Land Registration Law of 2015 provides legal backing for joint tenancy and co-ownership arrangements, ensuring co-owners' rights are protected under Nigerian law.",
-			},
-		],
+		trigger: "How can I get started on Akara?",
+		body1: (
+			<p>
+				Visit{" "}
+				<a
+					href="www.akara.ng"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="text-secondary font-medium"
+				>
+					www.akara.ng
+				</a>{" "}
+				to explore available projects in the "Offerings" section. Select a
+				project and purchase fractional units worth ₦1,000 or more. Receive your
+				certificate of co-ownership and start earning rental income as
+				properties generate returns.
+			</p>
+		),
 	},
 	{
-		section: "Participation and Ownership",
-		questions: [
-			{
-				trigger: "What is the minimum amount required to start?",
-				body1:
-					"The  minimum order value for fractional co-ownership on Akara is ₦1,000 worth of units in any listed project.",
-			},
-			{
-				trigger:
-					"Are there limits on the number of people who can co-own a property",
-				body1:
-					"Yes, each property listed on Akara's platform has a specific number of units of ownership available. \n For example: If a property is valued at ₦30,000,000 and each fractional unit is priced at ₦1,000, there will be 30,000 units available. Once all units are bought, no additional purchases can be made for that property.",
-			},
-			{
-				trigger: "What guarantees my co-ownership stake and rental income?",
-				body1:
-					"Your co-ownership stake is backed by tangible real estate assets. Additionally: Co-owners receive a certificate of beneficial ownership, providing legal recognition of their stake in the property. Properties are professionally managed to ensure stable rental income and proper maintenance. Akara ensures that rental income is distributed monthly, and maintenance fees are deducted without impacting the target 5% of property value as annual rental income.",
-			},
-			{
-				trigger:
-					"How does co-ownership work if properties are developed after purchase?",
-				body1:
-					"For properties like land developed into rental apartments, returns increase proportionally as rental income grows. For instance: If you own 10% of a property and annual rental income increases from ₦3,000,000 to ₦6,000,000, your share rises from ₦300,000 to ₦600,000.",
-			},
-			{
-				trigger: "Is there a lock-up period for co-ownership units?",
-				body1:
-					"Yes, co-ownership units are subject to a two-year lock-up period. This ensures project stability and enables efficient management. Units can only be sold after this period has elapsed.",
-			},
-		],
+		trigger: "How is the rental income distributed?",
+		body1:
+			"Rental income is distributed monthly directly into the co-owner's account via our platform, ensuring a steady stream of income",
 	},
 	{
-		section: "Project Details and Expansion",
-		questions: [
-			{
-				trigger: "Are Akara projects limited to Lagos?",
-				body1:
-					"Currently, Akara focuses on affordable housing projects within Lagos State. However, we plan to expand to other densely populated urban areas across Nigeria in the near future.",
-			},
-		],
+		trigger: "What fees does Akara charge?",
+		body1: (
+			<p>
+				There is a 5% service fee on deposits in the wallet. <br />A 5%
+				processing fee is charged on withdrawals, which is waived for users
+				withdrawing before the lock-up period or where no profit was made.
+			</p>
+		),
 	},
 	{
-		section: "Risk Management and Funding",
-		questions: [
-			{
-				trigger:
-					"What happens if the number of co-owners needed isn't met within a reasonable time?",
-				body1:
-					"Funds collected are held in an escrow account until the funding target is reached. However, Akara is committed to completing all projects within the stipulated timeline, even if all units of ownership have not been sold. This is possible thanks to our trusted partners who step in to provide the required financing. \n If the funding target isn't met, Akara may extend the funding period to attract more participants. \n Late buyers will pay higher prices for units in completed projects due to the increased value. \n Early buyers are rewarded with lower prices and immediate benefits as the project progresses. \n Akara's limited project listings ensure that all developments are completed as planned while adhering to our affordable housing vision.",
-			},
-			{
-				trigger: "What are the risks associated with co-ownership on Akara?",
-				body1:
-					"As with all real estate ventures, co-ownership carries risks, including: \n Market fluctuations affecting property value. \n Potential delays in development for pre-construction projects.\n However, Akara mitigates these risks through professional property management, legal backing and transparent processes.",
-			},
-		],
+		trigger: "Can I visit the properties before buying?",
+		body1:
+			"Yes, Akara organizes site visits for potential co-owners. Please contact us to schedule a visit to any of our ongoing projects.",
+	},
+	{
+		trigger:
+			"What happens if I want to sell my co-ownership units before the lock-up period ends?",
+		body1:
+			"Unfortunately, selling before the lock-up period is not permitted. This policy is in place to ensure the stability of the project and the community of co-owners.",
+	},
+	{
+		trigger: "Is there a management fee, and how is it handled?",
+		body1:
+			"Yes, there is a management fee which covers the costs of property management, maintenance, and administration. This fee is deducted from the rental income before distribution to ensure transparency and that it does not affect the promised returns.",
+	},
+	{
+		trigger: "How does Akara ensure transparency in financial dealings?",
+		body1:
+			"Akara provides regular financial updates and reports on our platform, and all transactions are recorded with third-party audits for transparency. Additionally, our partnership with an SEC-regulated asset manager will add another layer of oversight.",
+	},
+	{
+		trigger: "How can I track the performance of my ownership?",
+		body1:
+			"You can log into your Akara account on our web app to view real-time updates on property performance, including rental income, occupancy rates",
 	},
 ];
 
@@ -910,27 +870,3 @@ export const terms = [
 		),
 	},
 ];
-
-// Getting Started
-// How can I get started on Akara?Visit www.akara.ng to explore available projects in the "Offerings" section.
-// Select a project and purchase fractional units worth ₦1,000 or more.
-// Receive your certificate of co-ownership and start earning rental income as properties generate returns.
-
-// Financials and Fees
-// How is the rental income distributed?Rental income is distributed monthly directly into the co-owner's account via our platform, ensuring a steady stream of income.
-
-// What fees does Akara charge?
-// Akara retains 15% of the rental income without affecting the 5% promised to co-owners.
-// There is a 5% service fee on deposits in the wallet.
-// A 5% processing fee is charged on withdrawals, which is waived for users withdrawing before the lock-up period or where no profit was made.
-
-// Can I visit the properties before buying?Yes, Akara organizes site visits for potential co-owners. Please contact us to schedule a visit to any of our ongoing projects.
-
-// What happens if I want to sell my co-ownership units before the lock-up period ends?Unfortunately, selling before the lock-up period is not permitted. This policy is in place to ensure the stability of the project and the community of co-owners.
-
-// Is there a management fee, and how is it handled?Yes, there is a management fee which covers the costs of property management, maintenance, and administration. This fee is deducted from the rental income before distribution to ensure transparency and that it does not affect the promised returns.
-
-// How does Akara ensure transparency in financial dealings?Akara provides regular financial updates and reports on our platform, and all transactions are recorded with third-party audits for transparency. Additionally, our partnership with an SEC-regulated asset manager will add another layer of oversight.
-
-// Additional Information
-// How can I track the performance of my ownership?You can log into your Akara account on our web app to view real-time updates on property performance, including rental income, occupancy rates
