@@ -22,21 +22,21 @@
 
 		--foreground: #4a556c;
 		--foreground-100: #333461;
-		--foreground-variant: #ffc501;
+		--foreground-variant: #ffc301;
 		--foreground-variant-100: #333461;
 		--foreground-variant-200: #041434;
 
-		--secondary: #ffc501;
+		--secondary: #ffc301;
 		--secondary-foreground: #d1d5db;
 
 		--border: #c8d2df;
 		--border-100: #edeff5;
-		--border-variant: #ffc501;
+		--border-variant: #ffc301;
 
 		--grey: #667085;
 
 		--input: #aab7c680;
-		--ring: #ffc501;
+		--ring: #ffc301;
 
 		--muted: #f3f5f6; /* #e1e6ed */
 		--muted-foreground: #aab7c6;
