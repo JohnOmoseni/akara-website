@@ -27,10 +27,6 @@ function Hero() {
 				className="flex-1 relative flex-column max-md:!items-center gap-6"
 			>
 				<div className="flex-column gap-3 md:gap-2">
-					<p className="text-sm max-md:text-center max-md:max-w-[40ch] max-md:mx-auto badge !bg-secondary text-white font-semibold !border-none">
-						Building for millions of Nigerians and Africans
-					</p>
-
 					<h1 className="relative text-4xl text-white md:text-5xl leading-[1.1] md:leading-[1.2] max-md:text-center">
 						Start Making Money While Helping End{" "}
 						<br className="block md:hidden" /> Nigeria's Affordable Housing

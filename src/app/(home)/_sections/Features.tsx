@@ -28,15 +28,15 @@ const Card = ({ item, idx }: any) => {
 				viewport={{ once: true, amount: 0.2 }}
 				custom={idx}
 				className={cn(
-					"flex-column max-sm:items-center self-start relative gap-3.5 border border-border-100 rounded-sm shadow-sm py-5 px-6 md:py-8 md:px-7 transition"
+					"flex-column max-sm:items-center self-start relative gap-3 border border-border-100 rounded-sm shadow-sm py-5 px-6 md:py-8 md:px-7 transition"
 				)}
 			>
 				<RevealAnimate delay={0.8} className="max-sm:w-auto">
 					<div className="size-16 relative">
-						<img src={item.icon} alt="" className="object-contain" />
+						<img src={item.icon} alt="" className="w-96" />
 						<div
 							className={cn(
-								`absolute [background:radial-gradient(circle_at_center,_rgba(234,_88,_12,_0.8)_0,_rgba(234,_88,_12,_0)_50%)_no-repeat]`,
+								`absolute [background:radial-gradient(circle_at_center,_rgba(234,_88,_12,_0.7)_0,_rgba(234,_88,_12,_0)_70%)_no-repeat]`,
 								`left-1/2 top-[-50%] h-[200%] w-[200%] [mix-blend-mode:hard-light]`,
 								`opacity-20`,
 								`[transform:translateX(-50%)]`

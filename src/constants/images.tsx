@@ -15,6 +15,8 @@ import user_4_female from "/images/user_4_female.jpg";
 import house_1 from "/images/house_1.jpg";
 import house_2 from "/images/house_2.jpg";
 import house_3 from "/images/house_3.jpg";
+import service_network from "/images/service-icon-network.png";
+import service_impact from "/images/service-icon-impact.png";
 
 export {
 	hero,
@@ -33,5 +35,7 @@ export {
 	user_4_female,
 	house_1,
 	house_2,
+	service_network,
+	service_impact,
 	house_3,
 };

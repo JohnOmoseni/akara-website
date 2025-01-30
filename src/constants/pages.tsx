@@ -1,4 +1,5 @@
-import { service_impact, service_network } from "./icons";
+// import { service_impact, service_network } from "./icons";
+import { service_impact, service_network } from "./images";
 
 import {
 	person_1,
