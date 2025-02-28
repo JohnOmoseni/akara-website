@@ -85,7 +85,7 @@ export const footerLinks = [
 		dropdown: [
 			{
 				link: "Explore",
-				href: "/",
+				href: "https://app.akara.ng",
 				tag: "explore",
 			},
 			{
