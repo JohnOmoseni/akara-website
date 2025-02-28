@@ -72,7 +72,9 @@ const Footer = () => {
 											isActiveLink && "text-foreground-variant font-medium"
 										);
 
-										return item.tag === "email" || item.tag === "phone_no" ? (
+										return item.tag === "email" ||
+											item.tag === "phone_no" ||
+											item.tag === "website" ? (
 											<a
 												key={`${idx}-${item.tag}`}
 												href={`${item.href}`}
