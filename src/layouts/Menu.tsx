@@ -5,6 +5,7 @@ import { Close } from "@/constants/icons";
 import { animateFn, animateMenu } from "@/lib/animate";
 import { motion } from "framer-motion";
 import { useAppContext } from "@/context/AppContext";
+import { Link } from "react-router-dom";
 
 function Menu() {
 	const { toggleMenu } = useAppContext();
@@ -39,12 +40,14 @@ function Menu() {
 				</nav>
 
 				<div className="mt-auto mb-8 mx-auto">
-					<Button
-						title="Get Started"
-						size="lg"
-						className=""
-						onClick={onClose}
-					/>
+					<Link to={"https://app.akara.ng"}>
+						<Button
+							title="Get Started"
+							size="lg"
+							className=""
+							onClick={onClose}
+						/>
+					</Link>
 				</div>
 			</div>
 		</motion.div>

@@ -58,13 +58,15 @@ const Card = ({ item, idx }: any) => {
 				</RevealAnimate>
 
 				<RevealAnimate className="max-sm:w-auto">
-					<Button
-						title={"Get Started"}
-						variant={idx === 0 ? "default" : "outline"}
-						className="mt-4"
-						icon={ArrowRight}
-						iconStyles={cn("", idx === 0 ? "" : "!text-secondary")}
-					/>
+					<a href="https://app.akara.ng" target="_blank" className="w-full">
+						<Button
+							title={"Get Started"}
+							variant={idx === 0 ? "default" : "outline"}
+							className="mt-4"
+							icon={ArrowRight}
+							iconStyles={cn("", idx === 0 ? "" : "!text-secondary")}
+						/>
+					</a>
 				</RevealAnimate>
 			</motion.div>
 		</Tilt>

@@ -87,19 +87,9 @@ export const PolicyHeader = () => {
 				</Link>
 
 				<div className="row-flex gap-12 ml-auto">
-					{/* <div className="md:row-flex hidden gap-8">
-						{navLinks?.map((link, idx) => (
-							<NavLinks key={idx} {...link} />
-						))}
-					</div>
-
-					<div className="icon sm:!hidden" onClick={() => toggleMenu()}>
-						<Menu size={22} className="" color="#333" />
-					</div> */}
-
-					<Link to="#" className="hidden sm:block">
+					<Link to={"https://app.akara.ng"} className="hidden sm:block">
 						<Button title="Get Started" className="rounded-full" />
-					</Link>
+					</Link>{" "}
 				</div>
 			</div>
 		</header>

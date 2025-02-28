@@ -33,7 +33,7 @@ const Header = () => {
 						<Menu size={22} className="" color="#333" />
 					</div>
 
-					<Link to="" className="hidden sm:block">
+					<Link to="https://app.akara.ng" className="hidden sm:block">
 						<Button title="Get Started" className="rounded-full" />
 					</Link>
 				</div>

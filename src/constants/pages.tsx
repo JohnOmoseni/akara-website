@@ -155,7 +155,7 @@ export const steps = [
 	},
 	{
 		step: "Step 3",
-		text: "The proceed to browse browse through and learn more from a list of available affordable housing projects in the Offerings Section.",
+		text: "Then proceed to browse through and learn more from a list of available affordable housing projects in the Offerings Section.",
 	},
 	{
 		step: "Step 4",
@@ -256,7 +256,7 @@ export const faqs = [
 			<p>
 				Visit{" "}
 				<a
-					href="www.akara.ng"
+					href="https://app.akara.ng"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="text-secondary font-medium"

@@ -9,9 +9,9 @@ const Team = () => {
 					Who We Are
 				</h2>
 
-				<p className="max-w-[64ch] max-md:px-2 w-full text-center">
+				<p className="max-w-[70ch] max-md:px-2 w-full text-center">
 					We are team of young, driven, and complementarily-skilled tech
-					entrepreneurs with decades of combined experience, and we deeply
+					entrepreneurs with decades of combined experience, and we are deeply
 					committed to the urgent mission of ending the scarcity of affordable
 					rental housing, which can help unlock Nigeria’s potential.
 				</p>

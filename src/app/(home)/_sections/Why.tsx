@@ -1,6 +1,7 @@
 import Button from "@/components/reuseables/CustomButton";
 import { house_3 } from "@/constants/images";
 import { features } from "@/constants/pages";
+import { Link } from "react-router-dom";
 
 function WhyUs() {
 	return (
@@ -25,7 +26,9 @@ function WhyUs() {
 						</li>
 					))}
 
-					<Button title="Get Started" className="max-sm:mx-auto" />
+					<Link to={"https://app.akara.ng"}>
+						<Button title="Get Started" className="max-sm:mx-auto" />
+					</Link>
 				</ul>
 
 				<div className=" flex-1 relative w-full min-h-[420px] sm:max-w-[580px] md:min-w-[380px] xl:min-w-[780px] max-md:max-w-[min(95%,_500px)] max-lg:max-h-[580px] mx-auto rounded-2xl overflow-hidden">

@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import TextGenerateEffect from "@/components/anims/TextGenerateEffect";
 import Button from "@/components/reuseables/CustomButton";
+import { Link } from "react-router-dom";
 
 function Hero() {
 	const heroRef = useRef<HTMLDivElement>(null);
@@ -40,12 +41,14 @@ function Hero() {
 				/>
 
 				<div className="flex-column md:row-flex-start gap-y-3 gap-x-5 mt-6 lg:mt-8">
-					<Button
-						title="Get Started"
-						variant="white"
-						className="rounded-full"
-						size="lg"
-					/>
+					<Link to="https://app.akara.ng">
+						<Button
+							title="Get Started"
+							variant="white"
+							className="rounded-full"
+							size="lg"
+						/>
+					</Link>
 
 					<Button
 						title="Learn More"
