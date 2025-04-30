@@ -131,7 +131,7 @@ export const features = [
 	},
 	{
 		title: "Start Small, Grow Big",
-		text: "Begin your real estate investment journey with as little as ₦1,000. Flexible ownership options designed for every Nigerian's budget.",
+		text: "Begin your real estate co-ownership journey with as little as ₦1,000. Flexible ownership options designed for every Nigerian's budget.",
 	},
 	{
 		title: "Simple and Secure",
