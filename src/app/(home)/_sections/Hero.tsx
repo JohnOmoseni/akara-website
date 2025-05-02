@@ -37,7 +37,7 @@ function Hero() {
 
 				<TextGenerateEffect
 					className="max-w-[50ch] text-[1.1rem] lg:text-xl max-md:px-2 max-md:text-center"
-					words="Discover the full potential of fractional real estate ownership. Finance the development of thousands of affordable housing units with as little ₦1,000"
+					words="Yes, you deserve to live in a decent apartment at an affordable rent! Discover the full potential of fractional real estate ownership. Together we can end the affordable housing scarcity for one another and make some money doing it."
 				/>
 
 				<div className="flex-column md:row-flex-start gap-y-3 gap-x-5 mt-6 lg:mt-8">

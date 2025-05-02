@@ -1,5 +1,5 @@
 import { footerLinks, socials } from "@/constants";
-import { logo } from "@/constants/icons";
+import { logo_white } from "@/constants/icons";
 import { cn } from "@/lib/utils";
 import { IconType } from "react-icons/lib";
 import { Link } from "react-router-dom";
@@ -34,8 +34,12 @@ const Footer = () => {
 			<div className="sm:row-flex flex flex-col !items-start justify-between gap-8 md:gap-[7rem] lg:gap-[10%]">
 				<div className="flex-column flex-2 w-full gap-3 max-sm:mx-auto max-sm:!items-center">
 					<Link to="/" className="group relative transition w-max">
-						<img src={logo} alt="akara" className="size-fit object-contain" />
-						{/* <LogoWhite className="size-fit object-contain" /> */}
+						<img
+							src={logo_white}
+							alt="akara"
+							className="size-fit object-contain"
+						/>
+						{/* <Logo className="size-fit object-contain" /> */}
 					</Link>
 					<p className="max-sm:text-center max-sm:px-2.5 font-light leading-5 text-xs sm:max-w-[60ch] sm:pl-3.5">
 						Akara is a company duly registered with the Corporate Affairs

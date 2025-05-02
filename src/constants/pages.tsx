@@ -130,10 +130,6 @@ export const features = [
 		text: "Help solve Nigeria's housing deficit hassle-free, while earning significant monthly profit. The Akara Innovation team handles the entire process with the highest level of technology-enabled transparency and efficiency for maximum thesis-supported profit. this profit comes first in the form of weekly and monthly rental income, and then as capital gains through the appreciation of the value the property.",
 	},
 	{
-		title: "Start Small, Grow Big",
-		text: "Begin your real estate co-ownership journey with as little as ₦1,000. Flexible ownership options designed for every Nigerian's budget.",
-	},
-	{
 		title: "Simple and Secure",
 		text: "Intuitive and straightforward steps from start to finish, with certificates of ownership backed by law to back the fractional units of ownership you purchase so you can feel secured.",
 	},
@@ -173,83 +169,127 @@ export const steps = [
 
 export const faqs = [
 	{
-		trigger: "What is Akara??",
+		trigger: "What is Akara?",
 		body1:
-			"Akara is a tech-powered platform dedicated to solving Nigeria's affordable housing crisis by enabling fractional co-ownership of real estate. Through Akara, individuals can collectively co-own affordable housing projects and earn steady rental income while contributing to reducing the housing deficit.",
+			"Akara is a platform that helps solve Nigeria's housing crisis by enabling people to co-own affordable real estate projects together. You can earn rental income while helping reduce the housing shortage. Importantly, Akara is not an investment platform. It is a technology-driven community solution where members help solve the affordable housing crisis for one another, with impact and mutual benefit as the main focus. Any financial returns are merely a bonus to the social impact created.",
+	},
+	{
+		trigger: "What types of projects are available on the platform?",
+		body1:
+			"There are two types of projects currently available: Leaseholds, which are for a fixed number of years (typically 5-15 years) with fixed rental income and no appreciation potential; and Freeholds, which are normal ownership stakes that can appreciate in value over time, where equity holders earn rental income and can benefit as the property value increases. We currently have more leaseholds than freeholds as they help us solve the affordable housing crisis faster.",
+	},
+	{
+		trigger:
+			"Can Akara directly protect me against the affordable housing crisis?",
+		body1:
+			"Certainly! Through our leasehold program, Akara builds a community where members solve the affordable housing problem for each other. As a customer who has purchased a certain amount of co-ownership units, you qualify to have Akara purchase a 5-year lease on your apartment, co-financed by Akara and the community. This reduces your annual rent, allows monthly rent payments, and protects you from sudden rent increases for the lease period.",
+	},
+	{
+		trigger:
+			"What if my landlord refuses to accept the lease terms and I do not wish to leave my current home?",
+		body1:
+			"If your landlord prefers collecting rent annually to increase it, Akara can negotiate a 2-year lease, which most landlords accept. This provides monthly rent payment options, rent reduction, and some protection against rent increases. Before the 2-year lease ends, Akara will secure another housing option for you with a 5-year lease.",
 	},
 	{
 		trigger: "Does Akara focus solely on real estate?",
 		body1:
-			"Yes, Akara is exclusively focused on real estate, particularly affordable housing. Our mission is to address Nigeria's housing deficit by facilitating access to affordable rental properties and creating sustainable living solutions.",
+			"Yes, Akara focuses exclusively on affordable housing to make rental properties accessible and create sustainable living solutions in Nigeria.",
 	},
 	{
 		trigger: "Is Akara a registered company?",
 		body1:
-			"Yes, Akara Innovations Limited is duly registered with the Corporate Affairs Commission (CAC) of Nigeria under all applicable laws.",
+			"Yes, Akara Innovations Limited is registered with the Corporate Affairs Commission (CAC) in Nigeria, following all legal requirements.",
 	},
 	{
-		trigger: "Who is behind Akara?",
+		trigger: "Who runs Akara?",
 		body1:
-			"We are a team of experts in technology, real estate, and marketing, dedicated to providing innovative solutions to Nigeria's housing challenges.",
-	},
-
-	{
-		trigger: "What regulatory certifications does Akara have?",
-		body1:
-			"While Akara is not yet a cooperative society, we plan to transition to a Cooperative Multipurpose Society soon to align with our long-term vision. For now: Akara holds a Special Control Unit Against Money Laundering (SCUML) certificate issued by the Economic and Financial Crimes Commission (EFCC). \n We are actively working to enter into a trusteeship partnership with a Securities and Exchange Commission (SEC)-regulated asset manager to further secure co-owners' interests.",
+			"Akara is led by a team of experts in technology, real estate, and marketing, working together to solve Nigeria's housing challenges.",
 	},
 	{
-		trigger: "What laws regulate fractional co-ownership in Nigeria?",
+		trigger: "What certifications does Akara have?",
 		body1:
-			"The Lagos State Land Registration Law of 2015 provides legal backing for joint tenancy and co-ownership arrangements, ensuring co-owners' rights are protected under Nigerian law.",
+			"Akara has a certificate from the EFCC's Special Control Unit Against Money Laundering (SCUML). We're also planning to become a Cooperative Multipurpose Society and partner with a Securities and Exchange Commission (SEC)-regulated asset manager to protect co-owners.",
 	},
-
+	{
+		trigger: "What laws support fractional co-ownership in Nigeria?",
+		body1:
+			"The Lagos State Land Registration Law of 2015 protects co-ownership and joint tenancy, ensuring your rights as a co-owner are secure.",
+	},
 	{
 		trigger: "What is the minimum amount required to start?",
 		body1:
-			"The  minimum order value for fractional co-ownership on Akara is ₦1,000 worth of units in any listed project.",
+			"You can start with as little as ₦1,000 to buy units in any Akara project.",
 	},
 	{
-		trigger:
-			"Are there limits on the number of people who can co-own a property",
+		trigger: "Is there a limit to how many people can co-own a property?",
 		body1:
-			"Yes, each property listed on Akara's platform has a specific number of units of ownership available. \n For example: If a property is valued at ₦30,000,000 and each fractional unit is priced at ₦1,000, there will be 30,000 units available. Once all units are bought, no additional purchases can be made for that property.",
+			"Yes, each property has a set number of units. For example, a ₦30,000,000 property with ₦1,000 per unit has 30,000 units available. Once all units are sold out, no more units can be purchased for that property.",
 	},
 	{
-		trigger: "What guarantees my co-ownership stake and rental income?",
+		trigger: "How is my co-ownership and rental income guaranteed?",
 		body1:
-			"Your co-ownership stake is backed by tangible real estate assets. Additionally: Co-owners receive a certificate of beneficial ownership, providing legal recognition of their stake in the property. Properties are professionally managed to ensure stable rental income and proper maintenance. Akara ensures that rental income is distributed monthly, and maintenance fees are deducted without impacting the target 5% of property value as annual rental income.",
+			"Your stake is backed by real estate assets. You receive a certificate of ownership, and properties are professionally managed to ensure steady rental income, paid monthly. Maintenance fees are covered without affecting the agreed rental income.",
 	},
 	{
-		trigger:
-			"How does co-ownership work if properties are developed after purchase?",
+		trigger: "Is there a holding period for my co-ownership units?",
 		body1:
-			"For properties like land developed into rental apartments, returns increase proportionally as rental income grows. For instance: If you own 10% of a property and annual rental income increases from ₦3,000,000 to ₦6,000,000, your share rises from ₦300,000 to ₦600,000.",
+			"Yes, co-ownership units in freeholds have a 3-year holding period to ensure project stability. You can sell your units only after this period. For leaseholds, due to their nature as diminishing assets, they cannot be sold.",
 	},
 	{
-		trigger: "Is there a lock-up period for co-ownership units?",
+		trigger: "Are Akara projects only in Lagos?",
 		body1:
-			"Yes, co-ownership units are subject to a two-year lock-up period. This ensures project stability and enables efficient management. Units can only be sold after this period has elapsed.",
-	},
-
-	{
-		trigger: "Are Akara projects limited to Lagos?",
-		body1:
-			"Currently, Akara focuses on affordable housing projects within Lagos State. However, we plan to expand to other densely populated urban areas across Nigeria in the near future.",
-	},
-
-	{
-		trigger:
-			"What happens if the number of co-owners needed isn't met within a reasonable time?",
-		body1:
-			"Funds collected are held in an escrow account until the funding target is reached. However, Akara is committed to completing all projects within the stipulated timeline, even if all units of ownership have not been sold. This is possible thanks to our trusted partners who step in to provide the required financing. \n If the funding target isn't met, Akara may extend the funding period to attract more participants. \n Late buyers will pay higher prices for units in completed projects due to the increased value. \n Early buyers are rewarded with lower prices and immediate benefits as the project progresses. \n Akara's limited project listings ensure that all developments are completed as planned while adhering to our affordable housing vision.",
+			"For now, Akara focuses on Lagos, but we plan to expand to other major cities in Nigeria soon.",
 	},
 	{
-		trigger: "What are the risks associated with co-ownership on Akara?",
+		trigger: "What happens if not enough people co-own a property?",
 		body1:
-			"As with all real estate ventures, co-ownership carries risks, including: \n Market fluctuations affecting property value. \n Potential delays in development for pre-construction projects.\n However, Akara mitigates these risks through professional property management, legal backing and transparent processes.",
+			"Funds are held in an escrow account until the funding goal is met. If needed, Akara's partners provide financing to complete projects on time. Late participants pay higher prices, while early participants get lower prices and immediate benefits.",
 	},
-
+	{
+		trigger: "What are the risks of co-owning with Akara?",
+		body1:
+			"Risks include market changes affecting property value or delays in pre-construction projects. Akara reduces these risks with professional management, legal protection, and transparent processes.",
+	},
+	{
+		trigger: "How does Akara contribute to solving Nigeria's housing crisis?",
+		body1:
+			"Akara tackles the housing crisis by pooling resources from community members to make property ownership accessible. Our leasehold program addresses high annual rent payments and unpredictable increases. As our platform grows, we develop more affordable housing projects that benefit both co-owners and tenants, creating a sustainable solution.",
+	},
+	{
+		trigger: "How is rental income paid?",
+		body1:
+			"Rental income is paid monthly directly to your account through the Akara platform.",
+	},
+	{
+		trigger: "What fees does Akara charge?",
+		body1:
+			"Akara charges no fees for deposits or withdrawals. What you deposit is exactly what reflects in your wallet, and what you withdraw is also exactly what reflects in your wallet. No hidden charges.",
+	},
+	{
+		trigger: "Can I visit properties/projects before buying units?",
+		body1:
+			"Absolutely! Akara arranges site visits for potential co-owners. Contact us to schedule a visit.",
+	},
+	{
+		trigger: "Can I sell my units before the holding period ends?",
+		body1:
+			"No, selling units before the three-year holding period is not allowed to ensure project stability.",
+	},
+	{
+		trigger: "Is there a management fee?",
+		body1:
+			"Yes, a management fee covers property maintenance and administration. It's deducted from rental income transparently, so it doesn't affect your promised returns. The fee ranges from 5% to 25% depending on the project, and the exact percentage is always communicated clearly in advance.",
+	},
+	{
+		trigger: "How does Akara ensure transparency?",
+		body1:
+			"Akara provides regular financial updates, records all transactions, and uses third-party audits. Our upcoming partnership with an SEC-regulated asset manager will add more oversight.",
+	},
+	{
+		trigger: "How can I track my earnings?",
+		body1:
+			"Log into your Akara account on our web app to see updates on the performance of your co-ownership units, including rental income.",
+	},
 	{
 		trigger: "How can I get started on Akara?",
 		body1: (
@@ -269,47 +309,6 @@ export const faqs = [
 				properties generate returns.
 			</p>
 		),
-	},
-	{
-		trigger: "How is the rental income distributed?",
-		body1:
-			"Rental income is distributed monthly directly into the co-owner's account via our platform, ensuring a steady stream of income",
-	},
-	{
-		trigger: "What fees does Akara charge?",
-		body1: (
-			<p>
-				There is a 5% service fee on deposits in the wallet. <br />A 5%
-				processing fee is charged on withdrawals, which is waived for users
-				withdrawing before the lock-up period or where no profit was made.
-			</p>
-		),
-	},
-	{
-		trigger: "Can I visit the properties before buying?",
-		body1:
-			"Yes, Akara organizes site visits for potential co-owners. Please contact us to schedule a visit to any of our ongoing projects.",
-	},
-	{
-		trigger:
-			"What happens if I want to sell my co-ownership units before the lock-up period ends?",
-		body1:
-			"Unfortunately, selling before the lock-up period is not permitted. This policy is in place to ensure the stability of the project and the community of co-owners.",
-	},
-	{
-		trigger: "Is there a management fee, and how is it handled?",
-		body1:
-			"Yes, there is a management fee which covers the costs of property management, maintenance, and administration. This fee is deducted from the rental income before distribution to ensure transparency and that it does not affect the promised returns.",
-	},
-	{
-		trigger: "How does Akara ensure transparency in financial dealings?",
-		body1:
-			"Akara provides regular financial updates and reports on our platform, and all transactions are recorded with third-party audits for transparency. Additionally, our partnership with an SEC-regulated asset manager will add another layer of oversight.",
-	},
-	{
-		trigger: "How can I track the performance of my ownership?",
-		body1:
-			"You can log into your Akara account on our web app to view real-time updates on property performance, including rental income, occupancy rates",
 	},
 ];
 

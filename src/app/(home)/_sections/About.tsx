@@ -37,7 +37,7 @@ function About() {
 
 					<p className="max-w-[80ch] sm:max-w-[50ch] max-sm:px-3 sm:pr-2 mx-auto max-sm:text-center ">
 						The vision is to build a Nigeria where hardworking citizens can
-						afford the kind of accommodation and like they deserve.
+						afford the kind of accommodation and life they deserve.
 					</p>
 				</div>
 			</FadeIn>
