@@ -32,7 +32,7 @@ const Footer = () => {
 	return (
 		<footer className="px-5 pb-5 pt-8 sm:px-[5%] sm:pt-[5%] bg-[#111] text-white">
 			<div className="sm:row-flex flex flex-col !items-start justify-between gap-8 md:gap-[7rem] lg:gap-[10%]">
-				<div className="flex-column flex-2 w-full gap-3 max-sm:mx-auto max-sm:!items-center">
+				<div className="flex-column flex-2 w-full gap-4 max-sm:mx-auto max-sm:!items-center">
 					<Link to="/" className="group relative transition w-max">
 						<img
 							src={logo_white}
@@ -41,14 +41,24 @@ const Footer = () => {
 						/>
 						{/* <Logo className="size-fit object-contain" /> */}
 					</Link>
-					<p className="max-sm:text-center max-sm:px-2.5 font-light leading-5 text-xs sm:max-w-[60ch] sm:pl-3.5">
-						Akara is a company duly registered with the Corporate Affairs
-						Commission (CAC), Nigeria. We are transforming how Nigerians engage
-						with Real Estate by providing opportunities to co-own affordable
-						housing projects. With Akara, individuals and families can now
-						purchase co-ownership units in carefully selected rental properties
-						designed to meet housing needs while creating long-term value.
-					</p>
+
+					<div className="sm:pl-3.5 flex-column gap-6 max-sm:px-2.5">
+						<p className="max-sm:text-center font-light leading-5 text-xs sm:max-w-[60ch]">
+							Akara is a company duly registered with the Corporate Affairs
+							Commission (CAC), Nigeria. We are transforming how Nigerians
+							engage with Real Estate by providing opportunities to co-own
+							affordable housing projects. With Akara, individuals and families
+							can now purchase co-ownership units in carefully selected rental
+							properties designed to meet housing needs while creating long-term
+							value.
+						</p>
+
+						<p className="max-sm:text-center font-light leading-5 text-xs sm:max-w-[60ch]">
+							<span className="font-semibold">Address:</span> 10/12 Strachan
+							Street, Central Business District, Lagos Island, Lagos 101223,
+							Lagos state.
+						</p>
+					</div>
 
 					<div className="row-flex-btwn gap-6 w-max sm:ml-3.5 mt-3">
 						{socials?.map((link, idx) => (
