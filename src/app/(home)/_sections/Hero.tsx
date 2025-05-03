@@ -30,7 +30,7 @@ function Hero() {
 				<div className="flex-column gap-3 md:gap-2">
 					<h1 className="relative text-4xl text-white md:text-5xl leading-[1.1] md:leading-[1.2] max-md:text-center">
 						Yes, you deserve to live in a decent apartment
-						<br className="block md:hidden" /> at an affordable rent! Deficit
+						<br className="block md:hidden" /> at an affordable rent!
 					</h1>
 				</div>
 
