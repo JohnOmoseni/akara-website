@@ -29,15 +29,14 @@ function Hero() {
 			>
 				<div className="flex-column gap-3 md:gap-2">
 					<h1 className="relative text-4xl text-white md:text-5xl leading-[1.1] md:leading-[1.2] max-md:text-center">
-						Start Making Money While Helping End{" "}
-						<br className="block md:hidden" /> Nigeria's Affordable Housing
-						Deficit
+						Yes, you deserve to live in a decent apartment
+						<br className="block md:hidden" /> at an affordable rent! Deficit
 					</h1>
 				</div>
 
 				<TextGenerateEffect
 					className="max-w-[50ch] text-[1.1rem] lg:text-xl max-md:px-2 max-md:text-center"
-					words="Yes, you deserve to live in a decent apartment at an affordable rent! Discover the full potential of fractional real estate ownership. Together we can end the affordable housing scarcity for one another and make some money doing it."
+					words="Discover the full potential of fractional real estate ownership. Together we can end the affordable housing scarcity for one another and make some money doing it."
 				/>
 
 				<div className="flex-column md:row-flex-start gap-y-3 gap-x-5 mt-6 lg:mt-8">
