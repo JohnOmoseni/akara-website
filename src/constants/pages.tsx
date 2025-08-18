@@ -34,8 +34,8 @@ export const services = [
 // WHO WE ARE
 export const team = [
 	{
-		name: "Nadayar C. Enegesi",
-		body: "Co-founder/CEO, a tech visionary leading the charge to deliver sufficient affordable housing which he believes can be a quality of life multiplier much like the 2 other solutions co-founded, Andela and Eden Life.",
+		name: "Busayo Akindele",
+		body: "An estate management graduate and proptech visionary with 10+ years activating 1000+ apartments across urban centres, Busayo believes  affordable housing holds the key to unlocking Nigeria's economic potential land is passionate pursuing that outcome with Akara.",
 		img: person_1,
 	},
 	{
@@ -45,7 +45,7 @@ export const team = [
 	},
 	{
 		name: "Tokunbo Akindele, Esq",
-		body: "Executive Advisor, a seasoned attorney, serial entrepreneur and passionate nation builder, Mr Akindele brings decades of experience executing on real estate projects worth tens of billions, to ensure Akara succeeds without compromising on legal, compliance, and construction excellence.",
+		body: "A serial and strategy entrepreneur whose law firm expertise (Dulbarr & Thark), fintech pioneering (Paymac), healthtech innovation (UMredica Nigeria), and millions of dollars in real estate development experience all converge in Akara as the culmination of his cautious-but-nimble approach to delivering impactful, scalable solutions for the good of all.",
 		img: person_3,
 	},
 ];
