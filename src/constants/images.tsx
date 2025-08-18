@@ -1,5 +1,5 @@
 import hero from "/images/house_1.jpg";
-import person_1 from "/images/person_1.webp";
+import person_1 from "/images/person_1.jpg";
 import person_2 from "/images/person_2.webp";
 import person_3 from "/images/person_3.webp";
 import user_1_male from "/images/user_1_male.jpg";
