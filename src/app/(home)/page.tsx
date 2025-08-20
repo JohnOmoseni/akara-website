@@ -29,7 +29,16 @@ export default function Home() {
 				<Hero />
 			</div>
 
-			<section>
+			<section className="w-full bg-background relative">
+				{/* Amber Glow Background */}
+				<div
+					className="absolute inset-0 z-0"
+					style={{
+						backgroundImage: `radial-gradient(125% 125% at 50% 50%, #ffffff 40%, #f59e0b 100%)`,
+						backgroundSize: "100% 100%",
+					}}
+				/>
+
 				<SectionWrapper
 					id="features"
 					containerStyles="pt-12 md:py-[min(5rem,_10%)]"
@@ -45,19 +54,33 @@ export default function Home() {
 					<Team />
 				</SectionWrapper>
 
-				<SectionWrapper containerStyles="bg-background-100 ">
+				<SectionWrapper containerStyles="">
 					<Testimonials />
 				</SectionWrapper>
 
-				<SectionWrapper id="steps" containerStyles="bg-background-100 ">
+				<SectionWrapper id="steps" containerStyles="">
 					<HowItWorks />
 				</SectionWrapper>
 
-				<SectionWrapper id="about" containerStyles="bg-background-100 ">
+				<SectionWrapper id="about" containerStyles=" ">
 					<About />
 				</SectionWrapper>
 
-				<SectionWrapper id="faqs" containerStyles="bg-background-100 ">
+				<SectionWrapper
+					id="faqs"
+					containerStyles="min-h-screen w-full relative"
+				>
+					{/* Morning Haze */}
+					<div
+						className="absolute inset-0 z-0"
+						style={{
+							backgroundImage: `
+          radial-gradient(circle at 50% 100%, rgba(253, 224, 71, 0.1) 0%, transparent 60%),
+          radial-gradient(circle at 50% 100%, rgba(251, 191, 36, 0.1) 0%, transparent 70%),
+         radial-gradient(circle at 50% 100%, rgba(244, 114, 182, 0.1) 0%, transparent 80%)
+        `,
+						}}
+					/>
 					<FAQ />
 				</SectionWrapper>
 			</section>
