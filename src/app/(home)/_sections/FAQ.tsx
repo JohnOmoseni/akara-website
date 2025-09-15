@@ -38,7 +38,7 @@ const FAQ = () => {
 			</div>
 
 			<Link
-				className="text-secondary  font-semibold text-base w-full text-center row-flex mt-7"
+				className="text-secondary font-semibold text-base w-full text-center row-flex mt-7"
 				to="/faqs"
 			>
 				View more...
@@ -46,7 +46,7 @@ const FAQ = () => {
 
 			<div id="contact" className="h-2" />
 
-			<div className="flex-column mt-8 sm:mt-12 bg-background-100 relative w-full items-center justify-center gap-2 py-10 px-2 md:pt-[min(2rem,_4%)] rounded-2xl overflow-hidden">
+			<div className="flex-column mt-8 sm:mt-12 relative w-full items-center justify-center gap-2 py-10 px-2 md:pt-[min(2rem,_4%)] rounded-2xl overflow-hidden">
 				<h3 className="text-center text-xl">Still have Questions?</h3>
 
 				<p className="max-sm:px-2 max-w-[60ch] text-center">

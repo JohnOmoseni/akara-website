@@ -36,12 +36,17 @@ const Team = () => {
 
 								<div
 									className={cn(
-										"absolute inset-0 bg-black/30 flex items-end py-4 px-4 transition-opacity duration-300 opacity-100"
+										"absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-black/0  flex items-end py-5 px-4 transition-opacity duration-300 opacity-100"
 									)}
 								>
-									<p className="text-xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200">
-										{person.name}
-									</p>
+									<div className="">
+										<p className="text-xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200">
+											{person.name}
+										</p>
+										<p className="text-base font-medium truncate pr-2 text-gray-300 mt-px">
+											{person.role}
+										</p>
+									</div>
 								</div>
 							</div>
 
