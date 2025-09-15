@@ -49,7 +49,7 @@ export const team = [
 		name: "Tokunbo Akindele, Esq",
 		body: "A serial and strategy entrepreneur whose law firm expertise (Dulbarr & Thark), fintech pioneering (Paymac), healthtech innovation (UMredica Nigeria), and millions of dollars in real estate development experience all converge in Akara as the culmination of his cautious-but-nimble approach to delivering impactful, scalable solutions for the good of all.",
 		img: person_3,
-		role: "Co-founder / Chief Legal Officer",
+		role: "Co-founder / Executive Chairman",
 	},
 ];
 

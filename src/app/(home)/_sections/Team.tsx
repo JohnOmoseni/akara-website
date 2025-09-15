@@ -21,7 +21,7 @@ const Team = () => {
 				{team.map((person) => (
 					<div
 						key={person.name}
-						className="group relative size-96 [perspective:1000px] max-sm:mx-auto"
+						className="group relative max-[350px]:size-[34rem] max-[460px]:size-[28rem] size-96 [perspective:1000px] max-sm:mx-auto"
 					>
 						<div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
 							{/* Front face with image */}
