@@ -38,7 +38,7 @@ const FAQ = () => {
 			</div>
 
 			<Link
-				className="text-secondary  font-semibold text-base w-full text-center row-flex mt-7"
+				className="text-secondary font-semibold text-base w-full text-center row-flex mt-7"
 				to="/faqs"
 			>
 				View more...

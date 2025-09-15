@@ -37,16 +37,19 @@ export const team = [
 		name: "Busayo Akindele",
 		body: "An estate management graduate and proptech visionary with 10+ years activating 1000+ apartments across urban centres, Busayo believes  affordable housing holds the key to unlocking Nigeria's economic potential land is passionate pursuing that outcome with Akara.",
 		img: person_1,
+		role: "Co-founder / Chief Executive Officer",
 	},
 	{
 		name: "Chukwuemeka C. Kema",
-		body: "Cofounder/CCO, with a track record of building high-impact solutions with SuruBuy & Bunker for the same demographic hardest hit by the the affordable housing scarcity.",
+		body: "Cofounder/Chief Product Officer, with a track record of building high-impact solutions with SuruBuy & Bunker for the same demographic hardest hit by the the affordable housing scarcity.",
 		img: person_2,
+		role: "Co-founder / Chief Product Officer",
 	},
 	{
 		name: "Tokunbo Akindele, Esq",
 		body: "A serial and strategy entrepreneur whose law firm expertise (Dulbarr & Thark), fintech pioneering (Paymac), healthtech innovation (UMredica Nigeria), and millions of dollars in real estate development experience all converge in Akara as the culmination of his cautious-but-nimble approach to delivering impactful, scalable solutions for the good of all.",
 		img: person_3,
+		role: "Co-founder / Chief Legal Officer",
 	},
 ];
 

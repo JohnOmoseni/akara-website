@@ -34,7 +34,7 @@ export default function Home() {
 				<div
 					className="absolute inset-0 z-0"
 					style={{
-						backgroundImage: `radial-gradient(125% 125% at 50% 50%, #ffffff 40%, #f59e0b 100%)`,
+						backgroundImage: `radial-gradient(180% 180% at 50% 50%, #ffffff 40%, #f59e0b 100%)`,
 						backgroundSize: "100% 100%",
 					}}
 				/>
@@ -71,7 +71,7 @@ export default function Home() {
 					containerStyles="min-h-screen w-full relative"
 				>
 					{/* Morning Haze */}
-					<div
+					{/* <div
 						className="absolute inset-0 z-0"
 						style={{
 							backgroundImage: `
@@ -80,7 +80,7 @@ export default function Home() {
          radial-gradient(circle at 50% 100%, rgba(244, 114, 182, 0.1) 0%, transparent 80%)
         `,
 						}}
-					/>
+					/> */}
 					<FAQ />
 				</SectionWrapper>
 			</section>
