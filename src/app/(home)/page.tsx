@@ -50,9 +50,9 @@ export default function Home() {
 					<WhyUs />
 				</SectionWrapper>
 
-				<SectionWrapper>
+				{/* <SectionWrapper>
 					<Team />
-				</SectionWrapper>
+				</SectionWrapper> */}
 
 				<SectionWrapper containerStyles="">
 					<Testimonials />
