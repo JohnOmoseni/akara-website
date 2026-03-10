@@ -1,7 +1,6 @@
 import Hero from "./_sections/Hero";
 import Testimonials from "./_sections/Testimonials";
 import WhyUs from "./_sections/Why";
-import Team from "./_sections/Team";
 import HowItWorks from "./_sections/HowItWorks";
 import About from "./_sections/About";
 import Features from "./_sections/Features";
